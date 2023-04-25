@@ -1,0 +1,206 @@
+.Project_Text {
+  color: #ffff;
+  font-weight: 800;
+  font-family: "Lobster Two", cursive;
+  position: relative;
+
+  text-transform: uppercase;
+  font-size: 2.6em;
+  letter-spacing: 4px;
+  overflow: hidden;
+  background: linear-gradient(90deg, rgb(164, 133, 255), #fff, #000);
+  background-repeat: no-repeat;
+  background-size: 80%;
+  animation: animate 3s linear infinite;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: rgba(255, 255, 255, 0);
+
+  background-color: rgb(0, 255, 64);
+  background-image: radial-gradient(
+      at 40% 20%,
+      hsla(82, 100%, 74%, 1) 0px,
+      transparent 50%
+    ),
+    radial-gradient(at 80% 0%, hsla(243, 100%, 56%, 1) 0px, transparent 50%),
+    radial-gradient(at 0% 50%, hsla(49, 100%, 93%, 1) 0px, transparent 50%),
+    radial-gradient(at 80% 50%, hsla(34, 100%, 76%, 1) 0px, transparent 50%),
+    radial-gradient(at 0% 100%, hsla(76, 100%, 77%, 1) 0px, transparent 50%),
+    radial-gradient(at 80% 100%, hsla(296, 100%, 70%, 1) 0px, transparent 50%),
+    radial-gradient(at 0% 0%, hsla(37, 100%, 76%, 1) 0px, transparent 50%);
+}
+.ButtonGithubDeployed {
+  box-shadow: 0 5px 10px rgba(9, 0, 0, 0.5);
+}
+.ButtonGithubDeployed:hover {
+  border-radius: 10px 18px;
+}
+.cardImage {
+  background: linear-gradient(0deg, #000, #272727);
+}
+.cardImage:hover {
+  background: linear-gradient(0deg, #000, #272727);
+}
+.CardProjects:before,
+.CardProjects:after {
+  content: "";
+  position: absolute;
+  left: -2px;
+  top: -2px;
+  background: linear-gradient(
+    45deg,
+    #fb0094,
+    #0000ff,
+    #00ff00,
+    #ffff00,
+    #ff0000,
+    #fb0094,
+    #0000ff,
+    #00ff00,
+    #ffff00,
+    #ff0000
+  );
+  background-size: 300%;
+  width: calc(100% + 4px);
+  height: calc(100% + 4px);
+  z-index: -1;
+  animation: steam 20s linear infinite;
+
+}
+@keyframes steam {
+  0% {
+    background-position: 0 0;
+  }
+  50% {
+    background-position: 200% 0;
+  }
+  100% {
+    background-position: 0 0;
+  }
+}
+
+.CardProjects:after {
+  filter: blur(50px);
+  box-shadow: drop-shadow(0 0 0px rgb(255, 255, 255, 60%));
+}
+
+.tech_used_span1 {
+  background-color: #d69e2e;
+  color: #fff;
+  font-family: Lobster Two, cursive;
+  font-weight: 500;
+  padding: 5px 6px;
+  border-radius: 10px 12px;
+  font-size: 14px;
+}
+.tech_used_span2 {
+  background-color: #d69e2e;
+  color: #fff;
+  font-family: Lobster Two, cursive;
+  font-weight: 900;
+  padding: 5px 6px;
+  border-radius: 10px 12px;
+  font-size: 14px;
+  margin-left: 8px;
+}
+.tech_used_span3 {
+  background-color: #d69e2e;
+  color: #fff;
+  font-family: Lobster Two, cursive;
+  font-weight: 900;
+  padding: 5px 6px;
+  border-radius: 10px 12px;
+  font-size: 14px;
+  margin-left: 8px;
+}
+.tech_used_span4 {
+  background-color: #d69e2e;
+  color: #fff;
+  font-family: Lobster Two, cursive;
+  font-weight: 900;
+  padding: 5px 6px;
+  border-radius: 10px 12px;
+  font-size: 14px;
+  margin-left: 8px;
+}
+.tech_used_span5 {
+  background-color: #d69e2e;
+  color: #fff;
+  font-family: Lobster Two, cursive;
+  font-weight: 900;
+  padding: 5px 6px;
+  border-radius: 10px 12px;
+  font-size: 14px;
+  margin-left: 8px;
+}
+.tech_used_span6 {
+  background-color: #d69e2e;
+  color: #fff;
+  font-family: Lobster Two, cursive;
+  font-weight: 900;
+  padding: 5px 6px;
+  border-radius: 10px 12px;
+  font-size: 14px;
+  margin-left: 8px;
+}
+.tech_used_span7 {
+  background-color: #d69e2e;
+  color: #fff;
+  font-family: Lobster Two, cursive;
+  font-weight: 900;
+  padding: 5px 6px;
+  border-radius: 10px 12px;
+  font-size: 14px;
+  margin-left: 8px;
+}
+.tech_used_span8 {
+  background-color: #d69e2e;
+  color: #fff;
+  font-family: Lobster Two, cursive;
+  font-weight: 900;
+  padding: 5px 6px;
+  border-radius: 10px 12px;
+  font-size: 14px;
+  margin-left: 8px;
+}
+.tech_used_span1:hover {
+  background-color: #e4c076;
+}
+.tech_used_span2:hover {
+  background-color: #e4c076;
+}
+.tech_used_span3:hover {
+  background-color: #e4c076;
+}
+.tech_used_span4:hover {
+  background-color: #e4c076;
+}
+.tech_used_span5:hover {
+  background-color: #e4c076;
+}
+.tech_used_span6:hover {
+  background-color: #e4c076;
+  
+}
+.tech_used_span7:hover {
+  background-color: #e4c076;
+}
+.tech_used_span8:hover {
+  background-color: #e4c076;
+}
+.flexBox1 {
+  justify-content: space-evenly;
+}
+@media only screen and (max-width: 900px) and (min-width:320px) {
+ .flexBox1 {
+    flex-direction: column;
+ 
+  }
+  .flexBox2 {
+    flex-direction: column;
+  }
+  .CardProjects{
+    width: 90%;
+    margin: auto;
+  }
+
+}
