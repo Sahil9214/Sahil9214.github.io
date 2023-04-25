@@ -2,16 +2,10 @@ import { ReactNode } from "react";
 import {
   Box,
   Flex,
-  Avatar,
   HStack,
   Link,
   IconButton,
-  Button,
   Menu,
-  MenuButton,
-  MenuList,
-  MenuItem,
-  MenuDivider,
   useDisclosure,
   useColorModeValue,
   Stack,
@@ -19,7 +13,7 @@ import {
 } from "@chakra-ui/react";
 import { HamburgerIcon, CloseIcon } from "@chakra-ui/icons";
 import "../Styles/Navbar.css";
-const Links = ["About Me", "Resume", "Projects", "Contact","Skills"];
+const Links = ["About Me", "Resume", "Projects", "Contact", "Skills"];
 
 const NavLink = ({ children }) => (
   <Link
@@ -44,11 +38,19 @@ export default function Simple() {
 
   return (
     <>
-      <Box className="Navbar" px={4} style={{position:"sticky",top:"0px"}}>
+      <Box className="Navbar" px={4} style={{ position: "sticky", top: "0px" }}>
         <Flex h={16} alignItems={"center"} justifyContent={"space-between"}>
           <IconButton
             size={"md"}
-            icon={isOpen ? <CloseIcon /> : <HamburgerIcon style={{color:"pink",backgroundColor:"red"}} />}
+            icon={
+              isOpen ? (
+                <CloseIcon />
+              ) : (
+                <HamburgerIcon
+                  style={{ color: "pink", backgroundColor: "red" }}
+                />
+              )
+            }
             aria-label={"Open Menu"}
             display={{ md: "none" }}
             onClick={isOpen ? onClose : onOpen}
@@ -63,15 +65,14 @@ export default function Simple() {
               display={{ base: "none", md: "flex" }}
             >
               {Links.map((link) => (
-                <NavLink className="navbar_link_p" key={link}>{link}</NavLink>
+                <NavLink className="navbar_link_p" key={link}>
+                  {link}
+                </NavLink>
               ))}
             </HStack>
           </HStack>
           <Flex alignItems={"center"}>
-            <Menu>
-           
-            
-            </Menu>
+            <Menu></Menu>
           </Flex>
         </Flex>
 
@@ -79,7 +80,9 @@ export default function Simple() {
           <Box pb={4} display={{ md: "none" }}>
             <Stack as={"nav"} spacing={4}>
               {Links.map((link) => (
-                <NavLink className="navbar_link_p" key={link}>{link}</NavLink>
+                <NavLink className="navbar_link_p" key={link}>
+                  {link}
+                </NavLink>
               ))}
             </Stack>
           </Box>
