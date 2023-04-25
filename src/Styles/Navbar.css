@@ -1,24 +1,19 @@
-.Navbar {
-  background-color: hsla(0, 100%, 50%, 1);
-  background-image: radial-gradient(
-      at 40% 20%,
-      hsla(28, 100%, 74%, 1) 0px,
-      transparent 50%
-    ),
-    radial-gradient(at 80% 0%, hsla(189, 100%, 56%, 1) 0px, transparent 50%),
-    radial-gradient(at 0% 50%, hsla(355, 100%, 93%, 1) 0px, transparent 50%),
-    radial-gradient(at 80% 50%, hsla(340, 100%, 76%, 1) 0px, transparent 50%),
-    radial-gradient(at 0% 100%, hsla(22, 100%, 77%, 1) 0px, transparent 50%),
-    radial-gradient(at 80% 100%, hsla(242, 100%, 70%, 1) 0px, transparent 50%),
-    radial-gradient(at 0% 0%, hsla(343, 100%, 76%, 1) 0px, transparent 50%);
+.Navbar{
+  background-color: black;
+  z-index: 2;
 }
 .Navbar_Text {
   font-size: 23px;
   font-family: "Lobster Two", cursive;
-  font-weight: 600;
-  color:#1e81b0 ;
+  font-weight: 800;
+  color:#DCD7A0 ;
 }
 .Navbar_Top{
     font-family:"Lobster Two", cursive ;
-    color: #063970;
+    color:#fff;
+    font-weight: 800;
+    font-size: 1.4em;
+}
+.navbar_link_p{
+  color:#fff
 }

@@ -4,6 +4,10 @@ import "../Styles/TechnicalSkills.css";
 const TechnicalSkills = () => {
   return (
     <div>
+      <br/>
+      <br/>
+      <br/>
+      <br/>
       <Box className="techBox1">
         <Text>Technical Skills</Text>
 

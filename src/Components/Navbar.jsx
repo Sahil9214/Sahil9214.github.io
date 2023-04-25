@@ -26,10 +26,11 @@ const NavLink = ({ children }) => (
     px={2}
     py={1}
     className="Navbar_Top"
+    color="#fff"
     rounded={"md"}
     _hover={{
       textDecoration: "none",
-      bg: useColorModeValue("#eeeee4"),
+      bg: useColorModeValue("#BDA55D"),
       fontWeight: "600",
     }}
     href={"/aboutme"}
@@ -43,7 +44,7 @@ export default function Simple() {
 
   return (
     <>
-      <Box className="Navbar" px={4}>
+      <Box className="Navbar" px={4} style={{position:"sticky",top:"0px"}}>
         <Flex h={16} alignItems={"center"} justifyContent={"space-between"}>
           <IconButton
             size={"md"}
@@ -62,32 +63,14 @@ export default function Simple() {
               display={{ base: "none", md: "flex" }}
             >
               {Links.map((link) => (
-                <NavLink key={link}>{link}</NavLink>
+                <NavLink className="navbar_link_p" key={link}>{link}</NavLink>
               ))}
             </HStack>
           </HStack>
           <Flex alignItems={"center"}>
             <Menu>
-              <MenuButton
-                as={Button}
-                rounded={"full"}
-                variant={"link"}
-                cursor={"pointer"}
-                minW={0}
-              >
-                <Avatar
-                  size={"sm"}
-                  src={
-                    "https://user-images.githubusercontent.com/106021674/221564192-0a065b61-9a9c-4b68-918c-47e13d36f51c.jpg"
-                  }
-                />
-              </MenuButton>
-              <MenuList>
-                <MenuItem>Link 1</MenuItem>
-                <MenuItem>Link 2</MenuItem>
-                <MenuDivider />
-                <MenuItem>Link 3</MenuItem>
-              </MenuList>
+           
+            
             </Menu>
           </Flex>
         </Flex>
@@ -96,7 +79,7 @@ export default function Simple() {
           <Box pb={4} display={{ md: "none" }}>
             <Stack as={"nav"} spacing={4}>
               {Links.map((link) => (
-                <NavLink key={link}>{link}</NavLink>
+                <NavLink className="navbar_link_p" key={link}>{link}</NavLink>
               ))}
             </Stack>
           </Box>

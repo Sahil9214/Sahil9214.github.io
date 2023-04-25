@@ -15,7 +15,7 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: rgba(255, 255, 255, 0);
 
-  background-color: rgb(0, 255, 64);
+  background-color: orange;
   background-image: radial-gradient(
       at 40% 20%,
       hsla(82, 100%, 74%, 1) 0px,
@@ -46,25 +46,13 @@
   position: absolute;
   left: -2px;
   top: -2px;
-  background: linear-gradient(
-    45deg,
-    #fb0094,
-    #0000ff,
-    #00ff00,
-    #ffff00,
-    #ff0000,
-    #fb0094,
-    #0000ff,
-    #00ff00,
-    #ffff00,
-    #ff0000
-  );
+  -webkit-box-reflect: below 0px
+    linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4));
   background-size: 300%;
   width: calc(100% + 4px);
   height: calc(100% + 4px);
   z-index: -1;
   animation: steam 20s linear infinite;
-
 }
 @keyframes steam {
   0% {
@@ -179,7 +167,6 @@
 }
 .tech_used_span6:hover {
   background-color: #e4c076;
-  
 }
 .tech_used_span7:hover {
   background-color: #e4c076;
@@ -190,17 +177,15 @@
 .flexBox1 {
   justify-content: space-evenly;
 }
-@media only screen and (max-width: 900px) and (min-width:320px) {
- .flexBox1 {
+@media only screen and (max-width: 900px) and (min-width: 320px) {
+  .flexBox1 {
     flex-direction: column;
- 
   }
   .flexBox2 {
     flex-direction: column;
   }
-  .CardProjects{
+  .CardProjects {
     width: 90%;
     margin: auto;
   }
-
 }
