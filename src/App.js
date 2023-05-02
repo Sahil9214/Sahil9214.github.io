@@ -8,14 +8,15 @@ import Github from "./Components/Github";
 import Contact from "./Components/Contact";
 function App() {
   return (
-    <div className="App" style={{backgroundColor:"#0F0F0F"}}>
-      {/* <ParticlesComponent /> */}
+    <div className="App" >
+      <ParticlesComponent />
       <Navbar style={{ display: "sticky", top: "0px" }} />
       <AboutMe />
       <br />
       <TechnicalSkills />
       <br />
       <Projects />
+      <br />
       <br />
       <Github />
       <br />
@@ -25,3 +26,4 @@ function App() {
 }
 
 export default App;
+//style={{backgroundColor:"#0F0F0F"}}

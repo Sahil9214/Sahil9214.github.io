@@ -18,7 +18,7 @@ import { BsThreeDotsVertical } from "@chakra-ui/icons";
 import "../Styles/Project.css";
 const Projects = () => {
   return (
-    <div>
+    <div id="Projects">
       <Text className="Project_Text">Projects</Text>
       <br/>
       <Divider width={"80%"} margin="auto" />
@@ -27,7 +27,7 @@ const Projects = () => {
       <Box style={{ width: "90%", margin: "auto" }} className="boxFlexupper">
         <Flex className="flexBox1">
           {/* Card 1 here */}
-          <Card maxW="sm" className="CardProjects">
+          <Card maxW="lg" className="CardProjects">
             <CardBody>
               <Image
                 className="cardImage"
@@ -122,7 +122,7 @@ const Projects = () => {
           <br />
           <br />
           <br />
-          <Card maxW="sm" className="CardProjects">
+          <Card maxW="lg" className="CardProjects">
             <CardBody>
               <Image
                 className="cardImage"
@@ -220,7 +220,7 @@ const Projects = () => {
         <br />
         <Flex justifyContent={"space-evenly"} className="flexBox2">
           {/* Card 1 here */}
-          <Card maxW="sm" className="CardProjects">
+          <Card maxW="lg" className="CardProjects">
             <CardBody>
               <Image
                 className="cardImage"
@@ -313,7 +313,7 @@ const Projects = () => {
           <br />
           <br />
           <br />
-          <Card maxW="sm" className="CardProjects">
+          <Card maxW="lg" className="CardProjects">
             <CardBody>
               <Image
                 className="cardImage"

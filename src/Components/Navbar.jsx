@@ -65,8 +65,8 @@ export default function Simple() {
               display={{ base: "none", md: "flex" }}
             >
               {Links.map((link) => (
-                <NavLink className="navbar_link_p" key={link}>
-                  {link}
+                <NavLink className="navbar_link_p"  key={link}>
+               <a href={`#${link}`}>{link}</a>   
                 </NavLink>
               ))}
             </HStack>

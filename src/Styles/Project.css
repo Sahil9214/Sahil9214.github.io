@@ -8,15 +8,15 @@
   font-size: 2.6em;
   letter-spacing: 4px;
   overflow: hidden;
-  background: linear-gradient(90deg, rgb(164, 133, 255), #fff, #000);
+  background: linear-gradient(90deg, rgb(164, 133, 255),orange, #000);
   background-repeat: no-repeat;
   background-size: 80%;
-  animation: animate 3s linear infinite;
+  /* animation: animate 3s linear infinite; */
   -webkit-background-clip: text;
   -webkit-text-fill-color: rgba(255, 255, 255, 0);
 
   background-color: orange;
-  background-image: radial-gradient(
+  /* background-image: radial-gradient(
       at 40% 20%,
       hsla(82, 100%, 74%, 1) 0px,
       transparent 50%
@@ -26,7 +26,7 @@
     radial-gradient(at 80% 50%, hsla(34, 100%, 76%, 1) 0px, transparent 50%),
     radial-gradient(at 0% 100%, hsla(76, 100%, 77%, 1) 0px, transparent 50%),
     radial-gradient(at 80% 100%, hsla(296, 100%, 70%, 1) 0px, transparent 50%),
-    radial-gradient(at 0% 0%, hsla(37, 100%, 76%, 1) 0px, transparent 50%);
+    radial-gradient(at 0% 0%, hsla(37, 100%, 76%, 1) 0px, transparent 50%); */
 }
 .ButtonGithubDeployed {
   box-shadow: 0 5px 10px rgba(9, 0, 0, 0.5);
@@ -36,23 +36,32 @@
 }
 .cardImage {
   background: linear-gradient(0deg, #000, #272727);
+  width:"90%";
+  margin: auto;
+  height: 300px;
 }
 .cardImage:hover {
   background: linear-gradient(0deg, #000, #272727);
+  z-index: 1;
+  box-shadow: #000 5px 5px, #000 10px 10px, #000 15px 15px, #000 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
 }
 .CardProjects:before,
 .CardProjects:after {
   content: "";
   position: absolute;
+  background-color: grey;
   left: -2px;
   top: -2px;
+  box-shadow: #fff 0px 3px 8px;
+  border: 2px solid #fff;
   -webkit-box-reflect: below 0px
-    linear-gradient(to bottom, rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.4));
+    linear-gradient(to bottom,#ffff,#ffff);
   background-size: 300%;
   width: calc(100% + 4px);
   height: calc(100% + 4px);
   z-index: -1;
   animation: steam 20s linear infinite;
+  box-shadow: #fff 5px 5px, #fff 10px 10px, #fff 15px 15px, #fff 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
 }
 @keyframes steam {
   0% {
@@ -188,4 +197,8 @@
     width: 90%;
     margin: auto;
   }
+  .Project_Text{
+    font-size: 28px;
+  }
+ 
 }
