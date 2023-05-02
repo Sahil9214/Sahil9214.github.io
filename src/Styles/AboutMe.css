@@ -110,5 +110,6 @@ z-index: 1;
 position: relative;
 border-radius: 50%;
 border-bottom:0px ;
-width:400px
+width:400px;
+border: none;
 }
