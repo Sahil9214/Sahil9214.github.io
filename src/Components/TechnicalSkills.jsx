@@ -3,7 +3,7 @@ import { Box, Text, Heading, Image, Divider } from "@chakra-ui/react";
 import "../Styles/TechnicalSkills.css";
 const TechnicalSkills = () => {
   return (
-    <div id="skills">
+    <div id="skills" className="skills-card">
       <br />
       <br />
       <br />

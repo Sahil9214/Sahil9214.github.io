@@ -15,7 +15,7 @@ export default function Navbar() {
 
   const handleResume = () => {
     window.open(
-      "https://drive.google.com/file/d/1WndJReS9UjQ1N1W9L-NB53CbCtrFRbmp/view?usp=sharing"
+      "https://drive.google.com/file/d/10oI6FnP85JxntvrHDRGOOe885SyFXYUl/view?usp=sharing"
     );
   };
   return (
@@ -26,6 +26,7 @@ export default function Navbar() {
         position="sticky"
         top={"0px"}
         margin={"auto"}
+        width={"100%"}
         // pt={9}
       >
         <Flex
@@ -52,7 +53,7 @@ export default function Navbar() {
             left="30px"
             zIndex={444444}
           />
-          <HStack spacing={8} alignItems={"center"}>
+          <HStack spacing={2} alignItems={"center"}>
             <HStack
               as={"nav"}
               spacing={9}
@@ -63,21 +64,30 @@ export default function Navbar() {
               <a className={style.Navbar_Text} href="#home">
                 Home
               </a>
-              <a href="#about">About</a>
-              <a href="#skills">Skills</a>
-              <a href="#projects">Projects</a>
-              <a href="#contact">Contact</a>
+              <a className="nav-link about" href="#about">
+                About
+              </a>
+              <a className="nav-link skills" href="#skills">
+                Skills
+              </a>
+              <a className="nav-link projects" href="#projects">
+                Projects
+              </a>
+              <a className="nav-link contact" href="#contact">
+                Contact
+              </a>
 
-              <button id="resume-button-1" onClick={handleResume}>
+              <button id="resume-button-1" onClick={handleResume} style={{borderRadius:"12px 20px"}} >
                 <a
+                 
                   id="resume-link-1"
                   href={resume}
-                  download="Rahul-Dudka-Resume"
+                  download="Utkarsh_Singhal-Resume"
                   target="_blank"
                   className={`${style.resumes} nav-link resume`}
                   rel="noreferrer"
                 >
-                  Resume <i className="fa">&#xf019;</i>
+                  Resume 
                 </a>
               </button>
             </HStack>

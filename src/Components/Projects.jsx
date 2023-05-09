@@ -112,7 +112,7 @@ const Projects = () => {
                 <Button
                   variant="solid"
                   colorScheme="blue"
-                  className="ButtonGithubDeployed"
+                  className="project-deployed-link"
                 >
                   <a href="https://vague-acoustics-7371.vercel.app/">
                     deloyment
@@ -212,7 +212,7 @@ const Projects = () => {
                     alt="github"
                   />
                 </Button>
-                <Button variant="solid" colorScheme="blue">
+                <Button variant="solid" colorScheme="blue" className="project-deployed-link"  >
                   <a href="https://rococo-sawine-4218f1.netlify.app/">
                     deloyment
                   </a>{" "}
@@ -299,7 +299,7 @@ const Projects = () => {
                   variant="solid"
                   colorScheme="blue"
                   outline={"transparent solid 2px"}
-                  className="project-tech-stack"
+                  className="project-github-link"
                 >
                   <a href="https://github.com/Alexfp05405/eminent-art-8078">
                     Github

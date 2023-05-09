@@ -8,7 +8,7 @@ import linkedin from "../Images/linkedin.png";
 import twitter from "../Images/twitter.png";
 import phone from "../Images/phone.png";
 import { useToast } from "@chakra-ui/react";
-
+import Github from "../Images/github.png"
 const Contact = () => {
   const form = useRef();
   const toast = useToast();
@@ -84,7 +84,7 @@ const Contact = () => {
             <Link className="contact-linkedin">Send a message</Link>
           </div>
           <div>
-            <img className="iconsImages" src={twitter} alt="" />
+            <img className="iconsImages" src={Github} alt="" />
             <h3>Twitter</h3>
             <Link contact-github>Send a message</Link>
           </div>
