@@ -11,6 +11,9 @@ function App() {
     <div className="App" >
       <ParticlesComponent />
       <Navbar id="nav_menu" style={{ display: "sticky", top: "0px" }} />
+      <br/>
+      <br/>
+    
       <AboutMe />
       <br />
       <TechnicalSkills id="skills" />

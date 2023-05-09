@@ -20,7 +20,7 @@ const Projects = () => {
   return (
     <div id="projects">
       <Text className="Project_Text">Projects</Text>
-      <br/>
+      <br />
       <Divider width={"80%"} margin="auto" />
       <br />
       <br />
@@ -36,14 +36,18 @@ const Projects = () => {
                 borderRadius="lg"
               />
               <Stack mt="6" spacing="3">
-                <Heading className="project-title"
+                <Heading
+                  className="project-title"
                   fontWeight={"700"}
                   style={{ fontFamily: " Lobster Two, cursive" }}
                   size="md"
                 >
                   Meeshow.com website
                 </Heading>
-                <Text className="project-description" style={{ fontFamily: " Lobster Two, cursive" }}>
+                <Text
+                  className="project-description"
+                  style={{ fontFamily: " Lobster Two, cursive" }}
+                >
                   Meesho is India's largest and most trusted marketplace for
                   Resellers, who sell products online through WhatsApp and
                   Facebook
@@ -53,7 +57,8 @@ const Projects = () => {
             </CardBody>
 
             <Box className="tech_used">
-              <span className="project-tech-stack"
+              <span
+                className="project-tech-stack"
                 style={{
                   backgroundColor: "rgb(229,62,62)",
                   color: "#fff",
@@ -92,7 +97,10 @@ const Projects = () => {
                   outline={"transparent solid 2px"}
                   className="project-github-link"
                 >
-                  Github{" "}
+                  <a href="https://github.com/palabhi017/Meesho-Clone">
+                    {" "}
+                    Github
+                  </a>{" "}
                   <img
                     style={{ marginLeft: "7px" }}
                     src="https://user-images.githubusercontent.com/106021674/223913675-1804f62d-0f4e-480f-bf35-5906d2fe4d7b.png"
@@ -106,7 +114,9 @@ const Projects = () => {
                   colorScheme="blue"
                   className="ButtonGithubDeployed"
                 >
-                  deloyment{" "}
+                  <a href="https://vague-acoustics-7371.vercel.app/">
+                    deloyment
+                  </a>{" "}
                   <img
                     style={{ marginLeft: "7px" }}
                     src="https://user-images.githubusercontent.com/106021674/223914003-0ae735e1-be01-4c74-8988-d9679ce5d41b.png"
@@ -131,24 +141,28 @@ const Projects = () => {
                 borderRadius="lg"
               />
               <Stack mt="6" spacing="3">
-                <Heading className="project-title"
+                <Heading
+                  className="project-title"
                   fontWeight={"700"}
                   style={{ fontFamily: " Lobster Two, cursive" }}
                   size="md"
                 >
                   IKEA.com website
                 </Heading>
-                <Text className="project-description" style={{ fontFamily: " Lobster Two, cursive" }}>
+                <Text
+                  className="project-description"
+                  style={{ fontFamily: " Lobster Two, cursive" }}
+                >
                   Furniture, home accessories, design ideas and inspiration for
                   big dreams and small budgets. A better everyday life begins at
                   home!
                 </Text>
-              
               </Stack>
             </CardBody>
 
             <Box className="tech_used">
-              <span className="project-tech-stack"
+              <span
+                className="project-tech-stack"
                 style={{
                   backgroundColor: "rgb(229,62,62)",
                   color: "#fff",
@@ -181,13 +195,15 @@ const Projects = () => {
 
             <CardFooter>
               <ButtonGroup spacing="2">
-                <Button className ="project-github-link"
+                <Button
+                  className="project-github-link"
                   variant="solid"
                   colorScheme="blue"
                   outline={"transparent solid 2px"}
-          
                 >
-                  Github{" "}
+                  <a href="https://github.com/pgariya/fleet-purpose-8648">
+                    Github
+                  </a>{" "}
                   <img
                     style={{ marginLeft: "7px" }}
                     src="https://user-images.githubusercontent.com/106021674/223913675-1804f62d-0f4e-480f-bf35-5906d2fe4d7b.png"
@@ -196,12 +212,10 @@ const Projects = () => {
                     alt="github"
                   />
                 </Button>
-                <Button
-                  variant="solid"
-                  colorScheme="blue"
-                
-                >
-                  deloyment{" "}
+                <Button variant="solid" colorScheme="blue">
+                  <a href="https://rococo-sawine-4218f1.netlify.app/">
+                    deloyment
+                  </a>{" "}
                   <img
                     style={{ marginLeft: "7px" }}
                     src="https://user-images.githubusercontent.com/106021674/223914003-0ae735e1-be01-4c74-8988-d9679ce5d41b.png"
@@ -229,24 +243,28 @@ const Projects = () => {
                 borderRadius="lg"
               />
               <Stack mt="6" spacing="3">
-                <Heading className="project-title"
+                <Heading
+                  className="project-title"
                   fontWeight={"700"}
                   style={{ fontFamily: " Lobster Two, cursive" }}
                   size="md"
                 >
                   TrackingTime.com website
                 </Heading>
-                <Text className="project-description"    style={{ fontFamily: " Lobster Two, cursive" }}>
+                <Text
+                  className="project-description"
+                  style={{ fontFamily: " Lobster Two, cursive" }}
+                >
                   A time tracker with additional workforce management features
                   that will help you develop a high-performing team that smashes
                   goals every time.
                 </Text>
-               
               </Stack>
             </CardBody>
 
             <Box className="tech_used">
-              <span className="project-tech-stack"
+              <span
+                className="project-tech-stack"
                 style={{
                   backgroundColor: "rgb(229,62,62)",
                   color: "#fff",
@@ -283,7 +301,9 @@ const Projects = () => {
                   outline={"transparent solid 2px"}
                   className="project-tech-stack"
                 >
-                  Github{" "}
+                  <a href="https://github.com/Alexfp05405/eminent-art-8078">
+                    Github
+                  </a>{" "}
                   <img
                     style={{ marginLeft: "7px" }}
                     src="https://user-images.githubusercontent.com/106021674/223913675-1804f62d-0f4e-480f-bf35-5906d2fe4d7b.png"
@@ -297,7 +317,7 @@ const Projects = () => {
                   colorScheme="blue"
                   className="project-deployed-link"
                 >
-                  deloyment{" "}
+                  <a href="https://fatsecret.vercel.app/"> deloyment </a>
                   <img
                     style={{ marginLeft: "7px" }}
                     src="https://user-images.githubusercontent.com/106021674/223914003-0ae735e1-be01-4c74-8988-d9679ce5d41b.png"
@@ -322,25 +342,29 @@ const Projects = () => {
                 borderRadius="lg"
               />
               <Stack mt="6" spacing="3">
-                <Heading className="project-title"
+                <Heading
+                  className="project-title"
                   fontWeight={"700"}
                   style={{ fontFamily: " Lobster Two, cursive" }}
                   size="md"
                 >
                   Hindustan.com website
                 </Heading>
-                <Text className="project-description" style={{ fontFamily: " Lobster Two, cursive" }}>
+                <Text
+                  className="project-description"
+                  style={{ fontFamily: " Lobster Two, cursive" }}
+                >
                   Hindustan Times is an Indian English-language daily newspaper
                   based in Delhi. It is the flagship publication of HT Media, an
                   entity controlled by the K. K. Birla family, and is owned by
                   Shobhana Bhartia.[2][
                 </Text>
-             
               </Stack>
             </CardBody>
 
             <Box className="tech_used">
-              <span className="project-tech-stack"
+              <span
+                className="project-tech-stack"
                 style={{
                   backgroundColor: "rgb(229,62,62)",
                   color: "#fff",
@@ -360,7 +384,7 @@ const Projects = () => {
                 <span className="tech_used_span1">CSS</span>
 
                 <span className="tech_used_span2"> HTML</span>
-     
+
                 <span className="tech_used_span4">API</span>
                 <br />
                 <br />
@@ -379,7 +403,9 @@ const Projects = () => {
                   outline={"transparent solid 2px"}
                   className="project-github-link"
                 >
-                  Github{" "}
+                  <a href="https://github.com/Sahil9214/HindustanTime">
+                    Github
+                  </a>{" "}
                   <img
                     style={{ marginLeft: "7px" }}
                     src="https://user-images.githubusercontent.com/106021674/223913675-1804f62d-0f4e-480f-bf35-5906d2fe4d7b.png"
@@ -393,7 +419,9 @@ const Projects = () => {
                   colorScheme="blue"
                   className="project-deployed-link"
                 >
-                  deloyment{" "}
+                  <a href="https://hindustan-time-ek6d.vercel.app/">
+                    deloyment
+                  </a>{" "}
                   <img
                     style={{ marginLeft: "7px" }}
                     src="https://user-images.githubusercontent.com/106021674/223914003-0ae735e1-be01-4c74-8988-d9679ce5d41b.png"
