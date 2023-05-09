@@ -21,7 +21,7 @@
   background-color: #000;
   border:2px solid yellow;
   border-radius: 10px 18px;
-  
+
 }
 .resume_Btn:hover {
   color:#fff;
@@ -105,7 +105,7 @@
   }
 }
 
-.UtkarshImage{
+.home-img{
 z-index: 1;
 position: relative;
 border-radius: 50%;

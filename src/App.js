@@ -10,17 +10,17 @@ function App() {
   return (
     <div className="App" >
       <ParticlesComponent />
-      <Navbar style={{ display: "sticky", top: "0px" }} />
+      <Navbar id="nav_menu" style={{ display: "sticky", top: "0px" }} />
       <AboutMe />
       <br />
-      <TechnicalSkills />
+      <TechnicalSkills id="skills" />
       <br />
-      <Projects />
+      <Projects id="projects" />
       <br />
       <br />
       <Github />
       <br />
-      <Contact />
+      <Contact id="contact" />
     </div>
   );
 }

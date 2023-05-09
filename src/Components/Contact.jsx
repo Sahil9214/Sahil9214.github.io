@@ -1,11 +1,9 @@
-
 import "../Styles/Contact.css";
-
 
 import React, { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import { Link } from "@chakra-ui/react";
-import mail from '../Images/mail.png'
+import mail from "../Images/mail.png";
 import linkedin from "../Images/linkedin.png";
 import twitter from "../Images/twitter.png";
 import phone from "../Images/phone.png";
@@ -45,7 +43,7 @@ const Contact = () => {
   };
 
   return (
-    <div id="Contact" className="nav-link contact">
+    <div id="contact" className="nav-link contact">
       <div className="top-sec">
         {/* Heading */}
         <div className="contact-name">
@@ -53,13 +51,13 @@ const Contact = () => {
           <h2 className="contact_heading">Contact Me</h2>
           <span className="dash"></span>
         </div>
-        <p className="PleaseDrop" >
+        <p className="PleaseDrop">
           😊 Please Drop a message, let's connect, will reach out as soon as
           possible.
         </p>
       </div>
       {/* Contact */}
-      <div className="contactContainer" style={{marginTop:"80px"}}>
+      <div className="contactContainer" style={{ marginTop: "80px" }}>
         <div className="contact-section1">
           <div>
             <h3>My Info:</h3>
@@ -69,30 +67,26 @@ const Contact = () => {
                 id="contact-email"
                 href=""
                 target="_blank"
+                className="contact-email"
               >
                 utkarshsinghal369@gmail.com
               </Link>
             </h3>
-            <h3 id="contact-phone">
+            <h3 id="contact-phone" className="contact-phone">
               {" "}
-              <img className="iconsImages" src={phone} alt="" /> : +91-9214553881
+              <img className="iconsImages" src={phone} alt="" /> :
+              +91-9214553881
             </h3>
           </div>
           <div>
             <img className="iconsImages" src={linkedin} alt="" />
             <h3>LinkedIn</h3>
-            <Link
-              
-            >
-              Send a message
-            </Link>
+            <Link className="contact-linkedin">Send a message</Link>
           </div>
           <div>
-            <img className="iconsImages"  src={twitter} alt="" />
+            <img className="iconsImages" src={twitter} alt="" />
             <h3>Twitter</h3>
-            <Link >
-              Send a message
-            </Link>
+            <Link contact-github>Send a message</Link>
           </div>
         </div>
         <form className="contact-form" ref={form} onSubmit={sendEmail}>

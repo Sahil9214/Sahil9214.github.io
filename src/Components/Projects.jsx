@@ -18,7 +18,7 @@ import { BsThreeDotsVertical } from "@chakra-ui/icons";
 import "../Styles/Project.css";
 const Projects = () => {
   return (
-    <div id="Projects">
+    <div id="projects">
       <Text className="Project_Text">Projects</Text>
       <br/>
       <Divider width={"80%"} margin="auto" />
@@ -28,7 +28,7 @@ const Projects = () => {
         <Flex className="flexBox1">
           {/* Card 1 here */}
           <Card maxW="lg" className="CardProjects">
-            <CardBody>
+            <CardBody className="project-card">
               <Image
                 className="cardImage"
                 src="https://user-images.githubusercontent.com/106021674/223912938-e37d0f04-b65e-480f-831e-66bcecd9fe43.png"
@@ -36,14 +36,14 @@ const Projects = () => {
                 borderRadius="lg"
               />
               <Stack mt="6" spacing="3">
-                <Heading
+                <Heading className="project-title"
                   fontWeight={"700"}
                   style={{ fontFamily: " Lobster Two, cursive" }}
                   size="md"
                 >
                   Meeshow.com website
                 </Heading>
-                <Text style={{ fontFamily: " Lobster Two, cursive" }}>
+                <Text className="project-description" style={{ fontFamily: " Lobster Two, cursive" }}>
                   Meesho is India's largest and most trusted marketplace for
                   Resellers, who sell products online through WhatsApp and
                   Facebook
@@ -53,7 +53,7 @@ const Projects = () => {
             </CardBody>
 
             <Box className="tech_used">
-              <span
+              <span className="project-tech-stack"
                 style={{
                   backgroundColor: "rgb(229,62,62)",
                   color: "#fff",
@@ -90,7 +90,7 @@ const Projects = () => {
                   variant="solid"
                   colorScheme="blue"
                   outline={"transparent solid 2px"}
-                  className="ButtonGithubDeployed"
+                  className="project-github-link"
                 >
                   Github{" "}
                   <img
@@ -123,7 +123,7 @@ const Projects = () => {
           <br />
           <br />
           <Card maxW="lg" className="CardProjects">
-            <CardBody>
+            <CardBody className="project-card">
               <Image
                 className="cardImage"
                 src="https://user-images.githubusercontent.com/106021674/223922963-3c2f54eb-09ac-407b-889e-18234e024863.png"
@@ -131,24 +131,24 @@ const Projects = () => {
                 borderRadius="lg"
               />
               <Stack mt="6" spacing="3">
-                <Heading
+                <Heading className="project-title"
                   fontWeight={"700"}
                   style={{ fontFamily: " Lobster Two, cursive" }}
                   size="md"
                 >
                   IKEA.com website
                 </Heading>
-                <Text style={{ fontFamily: " Lobster Two, cursive" }}>
+                <Text className="project-description" style={{ fontFamily: " Lobster Two, cursive" }}>
                   Furniture, home accessories, design ideas and inspiration for
                   big dreams and small budgets. A better everyday life begins at
                   home!
                 </Text>
-                <Text color="blue.600" fontSize="2xl"></Text>
+              
               </Stack>
             </CardBody>
 
             <Box className="tech_used">
-              <span
+              <span className="project-tech-stack"
                 style={{
                   backgroundColor: "rgb(229,62,62)",
                   color: "#fff",
@@ -181,11 +181,11 @@ const Projects = () => {
 
             <CardFooter>
               <ButtonGroup spacing="2">
-                <Button
+                <Button className ="project-github-link"
                   variant="solid"
                   colorScheme="blue"
                   outline={"transparent solid 2px"}
-                  className="ButtonGithubDeployed"
+          
                 >
                   Github{" "}
                   <img
@@ -199,7 +199,7 @@ const Projects = () => {
                 <Button
                   variant="solid"
                   colorScheme="blue"
-                  className="ButtonGithubDeployed"
+                
                 >
                   deloyment{" "}
                   <img
@@ -221,7 +221,7 @@ const Projects = () => {
         <Flex justifyContent={"space-evenly"} className="flexBox2">
           {/* Card 1 here */}
           <Card maxW="lg" className="CardProjects">
-            <CardBody>
+            <CardBody className="project-card">
               <Image
                 className="cardImage"
                 src="https://user-images.githubusercontent.com/106021674/223928574-93045280-292b-444e-b445-e350c505d15b.png"
@@ -229,24 +229,24 @@ const Projects = () => {
                 borderRadius="lg"
               />
               <Stack mt="6" spacing="3">
-                <Heading
+                <Heading className="project-title"
                   fontWeight={"700"}
                   style={{ fontFamily: " Lobster Two, cursive" }}
                   size="md"
                 >
                   TrackingTime.com website
                 </Heading>
-                <Text style={{ fontFamily: " Lobster Two, cursive" }}>
+                <Text className="project-description"    style={{ fontFamily: " Lobster Two, cursive" }}>
                   A time tracker with additional workforce management features
                   that will help you develop a high-performing team that smashes
                   goals every time.
                 </Text>
-                <Text color="blue.600" fontSize="2xl"></Text>
+               
               </Stack>
             </CardBody>
 
             <Box className="tech_used">
-              <span
+              <span className="project-tech-stack"
                 style={{
                   backgroundColor: "rgb(229,62,62)",
                   color: "#fff",
@@ -281,7 +281,7 @@ const Projects = () => {
                   variant="solid"
                   colorScheme="blue"
                   outline={"transparent solid 2px"}
-                  className="ButtonGithubDeployed"
+                  className="project-tech-stack"
                 >
                   Github{" "}
                   <img
@@ -295,7 +295,7 @@ const Projects = () => {
                 <Button
                   variant="solid"
                   colorScheme="blue"
-                  className="ButtonGithubDeployed"
+                  className="project-deployed-link"
                 >
                   deloyment{" "}
                   <img
@@ -314,7 +314,7 @@ const Projects = () => {
           <br />
           <br />
           <Card maxW="lg" className="CardProjects">
-            <CardBody>
+            <CardBody className="project-card">
               <Image
                 className="cardImage"
                 src="https://user-images.githubusercontent.com/106021674/223926712-ed696e8f-7ab0-40f1-bf9c-9fdbcd176832.png"
@@ -322,25 +322,25 @@ const Projects = () => {
                 borderRadius="lg"
               />
               <Stack mt="6" spacing="3">
-                <Heading
+                <Heading className="project-title"
                   fontWeight={"700"}
                   style={{ fontFamily: " Lobster Two, cursive" }}
                   size="md"
                 >
                   Hindustan.com website
                 </Heading>
-                <Text style={{ fontFamily: " Lobster Two, cursive" }}>
+                <Text className="project-description" style={{ fontFamily: " Lobster Two, cursive" }}>
                   Hindustan Times is an Indian English-language daily newspaper
                   based in Delhi. It is the flagship publication of HT Media, an
                   entity controlled by the K. K. Birla family, and is owned by
                   Shobhana Bhartia.[2][
                 </Text>
-                <Text color="blue.600" fontSize="2xl"></Text>
+             
               </Stack>
             </CardBody>
 
             <Box className="tech_used">
-              <span
+              <span className="project-tech-stack"
                 style={{
                   backgroundColor: "rgb(229,62,62)",
                   color: "#fff",
@@ -377,7 +377,7 @@ const Projects = () => {
                   variant="solid"
                   colorScheme="blue"
                   outline={"transparent solid 2px"}
-                  className="ButtonGithubDeployed"
+                  className="project-github-link"
                 >
                   Github{" "}
                   <img
@@ -391,7 +391,7 @@ const Projects = () => {
                 <Button
                   variant="solid"
                   colorScheme="blue"
-                  className="ButtonGithubDeployed"
+                  className="project-deployed-link"
                 >
                   deloyment{" "}
                   <img

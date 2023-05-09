@@ -12,7 +12,7 @@ import "../Styles/AboutMe.css";
 import Utkarsh from "../Images/Utkarsh.png"
 const AboutMe = () => {
   return (
-    <Box style={{ marginTop: "20px" }} id="About Me">
+    <Box style={{ marginTop: "20px" }} id="about" className="about section">
       <Text className="about_me_heading">About Me</Text>
       <br />
       <Divider width={"80%"} margin={"auto"} />
@@ -29,17 +29,17 @@ const AboutMe = () => {
               alignItems: "center",
             }}
           >
-            <Text className="name_Text">
+            <Text className="name_Text" id="user-detail-name">
               Hello <span>!</span> I Am <span style={{color:"red",fontWeight:"800"}} >Utkarsh Singhal</span>
               <br /> Full Stack web developer
               <br /> 👋👋
             </Text>
             <Text>
-              <p className="aboutME_p" style={{}}>
+              <p id="user-detail-intro" className="aboutME_p" style={{}}>
                 A self-motivated hard-working and ambitious Full Stack Web
                 Developer with proficiency in HTML,CSS,JavaScript and
-                React.Problem-solving mindeset and ability to perform well in
-                collbaoration hours of coding and hands-on experience in
+                React.Problem-solving mindset and ability to perform well in
+                collaboration hours of coding and hands-on experience in
                 developing 4 fully functioning projects. 100+hour of holistics
                 development which help in developing about 40 mini
                 projects.Looking forward to work as accountable and competent
@@ -49,13 +49,13 @@ const AboutMe = () => {
           </Box>
           <br />
           <a
-            href="https://drive.google.com/file/d/1UXeUgsMCZgV6BYrO-sDOm4Rxm9Wv1nJ2/view?usp=sharing"
+            href="https://drive.google.com/file/d/10oI6FnP85JxntvrHDRGOOe885SyFXYUl/view?usp=sharing"
             download
           >
             {" "}
-            <Button className="resume_Btn">
+            <Button className="resume_Btn" id="resume-link-1"    >
               Resume{" "}
-              <Image
+              <Image  id="resume-button-2"
                 width={"30px"}
                 src="https://user-images.githubusercontent.com/106021674/222917402-ed1d5989-90f3-45aa-9baa-26e3e2ca7699.png"
               />
@@ -63,7 +63,7 @@ const AboutMe = () => {
           </a>
         </Box>
         <Box className="mainBox2">
-         <Image className="UtkarshImage"     src={Utkarsh} alt="Image"/>
+         <Image className="home-img"     src={Utkarsh} alt="Image"/>
         </Box>
       </Flex>
     </Box>

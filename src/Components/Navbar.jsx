@@ -13,7 +13,14 @@ import {
 } from "@chakra-ui/react";
 import { HamburgerIcon, CloseIcon } from "@chakra-ui/icons";
 import "../Styles/Navbar.css";
-const Links = ["About Me", "Resume", "Projects", "Contact", "Skills"];
+const Links = ["about", "resume", "projects", "contact", "skills"];
+const valueClassName = [
+  "nav-link about",
+  "nav-link resume",
+  "nav-link projects",
+  "nav-link contact",
+  "nav-link skills",
+];
 
 const NavLink = ({ children }) => (
   <Link
@@ -65,8 +72,8 @@ export default function Simple() {
               display={{ base: "none", md: "flex" }}
             >
               {Links.map((link) => (
-                <NavLink className="navbar_link_p"  key={link}>
-               <a href={`#${link}`}>{link}</a>   
+                <NavLink className="navbar_link_p" key={link}>
+                  <a href={`#${link}`}>{link}</a>
                 </NavLink>
               ))}
             </HStack>
