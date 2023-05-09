@@ -1,14 +1,19 @@
 import React from "react";
 import { Text, Heading, Box, Flex, Image, Divider } from "@chakra-ui/react";
 import "../Styles/Github.css";
+import GitHubCalendar from "react-github-calendar";
+import calender from "../Images/calender.png";
+
 const Github = () => {
   return (
-    <div>
+    <div className="gitStats">
       <Text className="github_contribution">GITHUB CONTRIBUTION</Text>
       <br />
       <Divider width={"80%"} margin={"auto"} />
       <br />
-      <Box className="react-activity-calendar">
+      <Box>
+      
+
         <Box className="Image_Section" id="github-streak-stats">
           <Image
             className="githubImages"
@@ -21,11 +26,6 @@ const Github = () => {
         <br />
         <Box className="Image_Section">
           <Flex>
-            {/* <Image width={"50%"} 
-            src="https://camo.githubusercontent.com/4d1789d79a2144f3da054e10a1e56584382cb8561078fa21e9a2eb2dce7b3e57/68747470733a2f2f6769746875622d726561646d652d73746174732e76657263656c2e6170702f6170692f746f702d6c616e67733f757365726e616d653d736168696c393231342673686f775f69636f6e733d74727565266c6f63616c653d656e266c61796f75743d636f6d70616374"
-            alt="git"
-          /> */}
-
             <Image
               id="github-top-langs"
               width={"50%"}
@@ -46,6 +46,12 @@ const Github = () => {
             alt="contri"
           />
         </Box>
+        <Image
+          style={{ border: "10px solid red", zIndex: "1" }}
+          className="react-activity-calendar"
+          src={calender}
+          alt="calender"
+        />
       </Box>
     </div>
   );

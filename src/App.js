@@ -15,14 +15,14 @@ function App() {
 
       <AboutMe />
       <br />
-      <TechnicalSkills id="skills" />
+      <TechnicalSkills  />
       <br />
-      <Projects id="projects" />
+      <Projects />
       <br />
       <br />
       <Github />
       <br />
-      <Contact id="contact" />
+      <Contact />
     </div>
   );
 }
