@@ -61,7 +61,16 @@ export default function Navbar() {
               color="#fff"
               fontSize="17px"
             >
-              <a className={style.Navbar_Text} href="#home">
+              <a
+                className={"nav-link home"}
+                href="#home"
+                style={{
+                  fontSize: "23px",
+                  fontFamily: "Lobster Two cursive",
+                  fontWeight: "800",
+                  color: "#DCD7A0 ",
+                }}
+              >
                 Home
               </a>
               <a className="nav-link about" href="#about">
@@ -77,9 +86,12 @@ export default function Navbar() {
                 Contact
               </a>
 
-              <button id="resume-button-1" onClick={handleResume} style={{borderRadius:"12px 20px"}} >
+              <button
+                id="resume-button-1"
+                onClick={handleResume}
+                style={{ borderRadius: "12px 20px" }}
+              >
                 <a
-                 
                   id="resume-link-1"
                   href={resume}
                   download="Utkarsh_Singhal-Resume"
@@ -87,7 +99,7 @@ export default function Navbar() {
                   className={`${style.resumes} nav-link resume`}
                   rel="noreferrer"
                 >
-                  Resume 
+                  Resume
                 </a>
               </button>
             </HStack>

@@ -9,7 +9,7 @@ import Contact from "./Components/Contact";
 function App() {
   return (
     <div className="App">
-      <ParticlesComponent />
+      <ParticlesComponent  id="home"/>
       <Navbar id="nav_menu" style={{ display: "sticky", top: "0px" }} />
       <br />
 
