@@ -74,18 +74,18 @@ const Contact = () => {
             </h3>
             <h3 id="contact-phone" className="contact-phone">
               {" "}
-              <img className="iconsImages" src={phone} alt="" /> :
+              <img className="iconsImages" src={phone} alt=""  id="contact-phone" /> :
               +91-9214553881
             </h3>
           </div>
           <div>
-            <img className="iconsImages" src={linkedin} alt="" />
+            <img className="iconsImages" src={linkedin} alt=""  id="contact-linkedin"/>
             <h3>LinkedIn</h3>
             <Link className="contact-linkedin">Send a message</Link>
           </div>
           <div>
-            <img className="iconsImages" src={Github} alt="" />
-            <h3>Twitter</h3>
+            <img className="iconsImages" src={Github} alt="" id="contact-github" />
+            <h3>Github</h3>
             <Link contact-github>Send a message</Link>
           </div>
         </div>

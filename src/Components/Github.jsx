@@ -12,7 +12,7 @@ const Github = () => {
         <Image
           className="githubImages"
           w={"100%"}
-          src="https://user-images.githubusercontent.com/106021674/222918636-c76f3c23-0e55-472b-9bb8-371e0d35bc59.png"
+          src="https://github-readme-streak-stats.herokuapp.com/?user=Sahil9214&theme=radical&hide_border=false"
           alt="github"
         />
       </Box>
@@ -25,10 +25,11 @@ const Github = () => {
             alt="git"
           /> */}
 
-          <Image id="github-top-langs"
+          <Image
+            id="github-top-langs"
             width={"50%"}
             className="githubImages"
-            src="https://camo.githubusercontent.com/4f4ad793fa559a7b780af80e73579ff51e6b40ed6c8cff4368ba62c8c6ae1c9f/68747470733a2f2f6769746875622d726561646d652d73746174732e76657263656c2e6170702f6170693f757365726e616d653d736168696c393231342673686f775f69636f6e733d74727565266c6f63616c653d656e"
+            src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sahil9214&theme=radical&hide_border=false&include_all_commits=false&count_private=false&layout=compact"
             alt="git"
           />
         </Flex>
@@ -36,10 +37,11 @@ const Github = () => {
       <br />
       <br />
       <Box className="Image_Section">
-        <Image id="github-stats-card"
+        <Image
+          id="github-stats-card"
           className="githubImages"
           w={"70%"}
-          src="https://camo.githubusercontent.com/5bf0ce40ce33b017173dba7f84078666d4014009631652611b25b355dfbb7539/68747470733a2f2f6769746875622d726561646d652d73747265616b2d73746174732e6865726f6b756170702e636f6d2f3f757365723d736168696c3932313426"
+          src="https://github-readme-stats.vercel.app/api?username=Sahil9214&theme=radical&hide_border=false&include_all_commits=true&count_private=true"
           alt="contri"
         />
       </Box>
