@@ -10,6 +10,7 @@ import {
 } from "@chakra-ui/react";
 import "../Styles/AboutMe.css";
 import Utkarsh from "../Images/Utkarsh.png"
+import resume from "../resume/utkarshResume.pdf"
 const AboutMe = () => {
   return (
     <Box style={{ marginTop: "20px" }} id="about" className="about section">
@@ -50,7 +51,8 @@ const AboutMe = () => {
           <br />
           <a
             href="https://drive.google.com/file/d/10oI6FnP85JxntvrHDRGOOe885SyFXYUl/view?usp=sharing"
-            download
+            download={resume}
+       
           >
             {" "}
             <Button className="resume_Btn" id="resume-link-1"    >

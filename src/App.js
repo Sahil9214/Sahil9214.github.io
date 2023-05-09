@@ -6,16 +6,17 @@ import TechnicalSkills from "./Components/TechnicalSkills";
 import Projects from "./Components/Projects";
 import Github from "./Components/Github";
 import Contact from "./Components/Contact";
+import Home from "./Components/Home";
 function App() {
   return (
     <div className="App">
-      <ParticlesComponent  id="home"/>
+      <ParticlesComponent />
       <Navbar id="nav_menu" style={{ display: "sticky", top: "0px" }} />
       <br />
-
+      <Home />
       <AboutMe />
       <br />
-      <TechnicalSkills  />
+      <TechnicalSkills />
       <br />
       <Projects />
       <br />
