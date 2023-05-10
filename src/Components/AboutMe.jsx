@@ -50,6 +50,7 @@ const AboutMe = () => {
           </Box>
           <br />
           <a
+            id="resume-button-2"
             href="https://drive.google.com/file/d/10oI6FnP85JxntvrHDRGOOe885SyFXYUl/view?usp=sharing"
             download={resume}
           >
@@ -57,7 +58,6 @@ const AboutMe = () => {
             <Button className="resume_Btn" id="resume-link-1">
               Resume{" "}
               <Image
-                id="resume-button-2"
                 width={"30px"}
                 src="https://user-images.githubusercontent.com/106021674/222917402-ed1d5989-90f3-45aa-9baa-26e3e2ca7699.png"
               />
