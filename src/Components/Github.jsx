@@ -55,7 +55,7 @@ import React from "react";
 // import GitHubCalendar from "react-github-calendar";
 import styles from "../Styles/Github.module.css";
 import calender from "../Images/calender.png";
-import { Text, Divider } from "@chakra-ui/react";
+import { Text, Divider,Box } from "@chakra-ui/react";
 const GitStats = () => {
   return (
     <div className={styles.gitStats}>
@@ -94,11 +94,12 @@ const GitStats = () => {
           id="github-top-langs"
           className={styles.commit3}
           src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sahil9214&theme=radical&hide_border=false&include_all_commits=false&count_private=false&layout=compact"
-          // src="https://github-readme-stats.vercel.app/api/top-langs/?username=dRahul97&theme=radical&hide_border=false&include_all_commits=false&count_private=false&layout=compact"(previous one)
+       
           alt=""
         />
-        <div className={styles.calendar}>
-          <img src={calender} alt="" height={"100%"} width={"99%"} />
+        <div className={styles.calender}>
+          <Box className="react-activity-calender">
+          <img src={calender} alt="" height={"100%"} width={"99%"} className="" />
           {/* <GitHubCalendar
           style={{ transform: "scale(18)" }}
           hideTotalCount="false"
@@ -106,6 +107,7 @@ const GitStats = () => {
           blockSize={15}
           username="drahul97"
         /> */}
+        </Box>
         </div>
       </div>
     </div>
