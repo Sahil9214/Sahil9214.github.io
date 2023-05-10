@@ -66,7 +66,7 @@ const Projects = () => {
                   fontWeight: "900",
                   padding: "5px 10px",
                   borderRadius: "10px 18px",
-                  marginRight: "220px",
+                  marginRight : "220px",
                 }}
               >
                 Collaborative
@@ -74,18 +74,18 @@ const Projects = () => {
               <br />
               <br />
 
-              <Box className="tech_used_span" style={{ gap: "10px" }}>
-                <span className="tech_used_span1">CSS</span>
+              <Box style={{ gap: "10px" }}>
+                <span className="tech_used_span">CSS</span>
 
-                <span className="tech_used_span2"> React</span>
-                <span className="tech_used_span3">Redux</span>
-                <span className="tech_used_span4">Chakra-Ui</span>
+                <span className="tech_used_span"> React</span>
+                <span className="tech_used_span">Redux</span>
+                <span className="tech_used_span">Chakra-Ui</span>
                 <br />
                 <br />
-                <span className="tech_used_span5">JavaScript</span>
+                <span className="tech_used_span">JavaScript</span>
 
-                <span className="tech_used_span7">Cylic deployment</span>
-                <span className="tech_used_span8">Json-Server</span>
+                <span className="tech_used_span">Cylic deployment</span>
+                <span className="tech_used_span">Json-Server</span>
               </Box>
             </Box>
 

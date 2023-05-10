@@ -86,7 +86,7 @@
   box-shadow: drop-shadow(0 0 0px rgb(255, 255, 255, 60%));
 }
 
-.tech_used_span1 {
+.tech_used_span{
   background-color: #d69e2e;
   color: #fff;
   font-family: Lobster Two, cursive;
@@ -95,7 +95,7 @@
   border-radius: 10px 12px;
   font-size: 14px;
 }
-.tech_used_span2 {
+.tech_used_span {
   background-color: #d69e2e;
   color: #fff;
   font-family: Lobster Two, cursive;
@@ -105,7 +105,7 @@
   font-size: 14px;
   margin-left: 8px;
 }
-.tech_used_span3 {
+.tech_used_span {
   background-color: #d69e2e;
   color: #fff;
   font-family: Lobster Two, cursive;
@@ -115,7 +115,7 @@
   font-size: 14px;
   margin-left: 8px;
 }
-.tech_used_span4 {
+.tech_used_span {
   background-color: #d69e2e;
   color: #fff;
   font-family: Lobster Two, cursive;
@@ -125,7 +125,7 @@
   font-size: 14px;
   margin-left: 8px;
 }
-.tech_used_span5 {
+.tech_used_span {
   background-color: #d69e2e;
   color: #fff;
   font-family: Lobster Two, cursive;
@@ -135,7 +135,7 @@
   font-size: 14px;
   margin-left: 8px;
 }
-.tech_used_span6 {
+.tech_used_span {
   background-color: #d69e2e;
   color: #fff;
   font-family: Lobster Two, cursive;
@@ -145,7 +145,7 @@
   font-size: 14px;
   margin-left: 8px;
 }
-.tech_used_span7 {
+.tech_used_span {
   background-color: #d69e2e;
   color: #fff;
   font-family: Lobster Two, cursive;
@@ -155,7 +155,7 @@
   font-size: 14px;
   margin-left: 8px;
 }
-.tech_used_span8 {
+.tech_used_span {
   background-color: #d69e2e;
   color: #fff;
   font-family: Lobster Two, cursive;
@@ -165,28 +165,28 @@
   font-size: 14px;
   margin-left: 8px;
 }
-.tech_used_span1:hover {
+.tech_used_span:hover {
   background-color: #e4c076;
 }
-.tech_used_span2:hover {
+.tech_used_span:hover {
   background-color: #e4c076;
 }
-.tech_used_span3:hover {
+.tech_used_span:hover {
   background-color: #e4c076;
 }
-.tech_used_span4:hover {
+.tech_used_span:hover {
   background-color: #e4c076;
 }
-.tech_used_span5:hover {
+.tech_used_span:hover {
   background-color: #e4c076;
 }
-.tech_used_span6:hover {
+.tech_used_span:hover {
   background-color: #e4c076;
 }
-.tech_used_span7:hover {
+.tech_used_span:hover {
   background-color: #e4c076;
 }
-.tech_used_span8:hover {
+.tech_used_span8hover {
   background-color: #e4c076;
 }
 .flexBox1 {

@@ -97,7 +97,7 @@ export default function Navbar() {
                   id="resume-link-1"
                   href={resume}
                   download="Utkarsh_Singhal-Resume"
-                  target="_blank"
+                
                   className={`${style.resumes} nav-link resume`}
                   rel="noreferrer"
                 >
