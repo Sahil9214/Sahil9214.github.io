@@ -90,12 +90,15 @@ const Projects = () => {
 
             <CardFooter>
               <ButtonGroup spacing="2">
-                <Link href="https://github.com/palabhi017/Meesho-Clone">
+                <Link
+                  href="https://github.com/palabhi017/Meesho-Clone"
+                  className="project-github-link"
+                  target={"_blank"}
+                >
                   <Button
                     variant="solid"
                     colorScheme="blue"
                     outline={"transparent solid 2px"}
-                    className="project-github-link"
                   >
                     {" "}
                     Github{" "}
@@ -111,6 +114,7 @@ const Projects = () => {
                 <Link
                   className="project-deployed-link"
                   href="https://vague-acoustics-7371.vercel.app/"
+                  target={"_blank"}
                 >
                   <Button
                     variant="solid"
@@ -201,6 +205,7 @@ const Projects = () => {
                 <Link
                   className="project-github-link"
                   href="https://github.com/pgariya/fleet-purpose-8648"
+                  target={"_blank"}
                 >
                   <Button
                     // className="project-github-link"
@@ -218,12 +223,12 @@ const Projects = () => {
                     />
                   </Button>
                 </Link>{" "}
-                <Link href="https://rococo-sawine-4218f1.netlify.app/">
-                  <Button
-                    variant="solid"
-                    colorScheme="blue"
-                    className="project-deployed-link"
-                  >
+                <Link
+                  href="https://rococo-sawine-4218f1.netlify.app/"
+                  target={"_blank"}
+                  className="project-deployed-link"
+                >
+                  <Button variant="solid" colorScheme="blue">
                     deloyment
                     <img
                       style={{ marginLeft: "7px" }}
@@ -305,37 +310,43 @@ const Projects = () => {
 
             <CardFooter>
               <ButtonGroup spacing="2">
-                <Button
-                  variant="solid"
-                  colorScheme="blue"
-                  outline={"transparent solid 2px"}
-                  className="project-github-link"
+                <Link
+                  href="https://github.com/Alexfp05405/eminent-art-8078"
+                  target="_blank"
                 >
-                  <a href="https://github.com/Alexfp05405/eminent-art-8078">
-                    Github
-                  </a>{" "}
-                  <img
-                    style={{ marginLeft: "7px" }}
-                    src="https://user-images.githubusercontent.com/106021674/223913675-1804f62d-0f4e-480f-bf35-5906d2fe4d7b.png"
-                    width="20px"
-                    height="18px"
-                    alt="github"
-                  />
-                </Button>
-                <Button
-                  variant="solid"
-                  colorScheme="blue"
+                  <Button
+                    variant="solid"
+                    colorScheme="blue"
+                    outline={"transparent solid 2px"}
+                    className="project-github-link"
+                  >
+                    Github{" "}
+                    <img
+                      style={{ marginLeft: "7px" }}
+                      src="https://user-images.githubusercontent.com/106021674/223913675-1804f62d-0f4e-480f-bf35-5906d2fe4d7b.png"
+                      width="20px"
+                      height="18px"
+                      alt="github"
+                    />
+                  </Button>
+                </Link>
+                <Link
+                  target="_blank"
+                  href="https://fatsecret.vercel.app/"
                   className="project-deployed-link"
                 >
-                  <a href="https://fatsecret.vercel.app/"> deloyment </a>
-                  <img
-                    style={{ marginLeft: "7px" }}
-                    src="https://user-images.githubusercontent.com/106021674/223914003-0ae735e1-be01-4c74-8988-d9679ce5d41b.png"
-                    width="20px"
-                    height="18px"
-                    alt="deployment"
-                  />
-                </Button>
+                  <Button variant="solid" colorScheme="blue">
+                    {" "}
+                    deloyment
+                    <img
+                      style={{ marginLeft: "7px" }}
+                      src="https://user-images.githubusercontent.com/106021674/223914003-0ae735e1-be01-4c74-8988-d9679ce5d41b.png"
+                      width="20px"
+                      height="18px"
+                      alt="deployment"
+                    />
+                  </Button>
+                </Link>
               </ButtonGroup>
             </CardFooter>
           </Card>
@@ -407,12 +418,15 @@ const Projects = () => {
 
             <CardFooter>
               <ButtonGroup spacing="2">
-                <Link href="https://github.com/Sahil9214/HindustanTime">
+                <Link
+                  href="https://github.com/Sahil9214/HindustanTime"
+                  className="project-github-link"
+                  target={"_blank"}
+                >
                   <Button
                     variant="solid"
                     colorScheme="blue"
                     outline={"transparent solid 2px"}
-                    className="project-github-link"
                   >
                     Github
                     <img
@@ -424,12 +438,12 @@ const Projects = () => {
                     />
                   </Button>
                 </Link>{" "}
-                <Link href="https://hindustan-time-ek6d.vercel.app/">
-                  <Button
-                    variant="solid"
-                    colorScheme="blue"
-                    className="project-deployed-link"
-                  >
+                <Link
+                  href="https://hindustan-time-ek6d.vercel.app/"
+                  className="project-deployed-link"
+                  target="_blank"
+                >
+                  <Button variant="solid" colorScheme="blue">
                     deloyment
                     <img
                       style={{ marginLeft: "7px" }}
