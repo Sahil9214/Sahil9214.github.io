@@ -94,14 +94,6 @@ const Projects = () => {
             <CardFooter>
               <Flex spacing="2">
                 <Link
-                  className="project-deployed-link"
-                  href="https://vague-acoustics-7371.vercel.app/"
-                  target={"_blank"}
-                >
-                  deloyment
-                </Link>{" "}
-                <Link
-                  style={{ marginLeft: "10px" }}
                   className="project-github-link"
                   href="https://github.com/palabhi017/Meesho-Clone"
                   target={"_blank"}
@@ -109,6 +101,14 @@ const Projects = () => {
                   {" "}
                   Github{" "}
                 </Link>
+                <Link
+                  style={{ marginLeft: "10px" }}
+                  className="project-deployed-link"
+                  href="https://vague-acoustics-7371.vercel.app/"
+                  target={"_blank"}
+                >
+                  deloyment
+                </Link>{" "}
               </Flex>
             </CardFooter>
           </Card>
@@ -267,22 +267,20 @@ const Projects = () => {
             <CardFooter>
               <Flex spacing="2">
                 <Link
-                  className="project-deployed-link"
-                  style={{ marginLeft: "10px" }}
-                  target="_blank"
-                  href="https://fatsecret.vercel.app/"
-                >
-                  {" "}
-                  deloyment
-                </Link>
-
-                <Link
-                  style={{ marginLeft: "10px" }}
                   className="project-github-link"
                   href="https://github.com/Alexfp05405/eminent-art-8078"
                   target="_blank"
                 >
                   Github{" "}
+                </Link>
+                <Link
+                  style={{ marginLeft: "10px" }}
+                  className="project-deployed-link"
+                  target="_blank"
+                  href="https://fatsecret.vercel.app/"
+                >
+                  {" "}
+                  deloyment
                 </Link>
               </Flex>
             </CardFooter>
@@ -356,19 +354,19 @@ const Projects = () => {
             <CardFooter>
               <Flex spacing="2">
                 <Link
-                  className="project-deployed-link"
-                  href="https://hindustan-time-ek6d.vercel.app/"
-                  target="_blank"
-                >
-                  deloyment
-                </Link>{" "}
-                <Link
-                  style={{ marginLeft: "10px" }}
                   className="project-github-link"
                   href="https://github.com/Sahil9214/HindustanTime"
                   target={"_blank"}
                 >
                   Github
+                </Link>{" "}
+                <Link
+                  style={{ marginLeft: "10px" }}
+                  className="project-deployed-link"
+                  href="https://hindustan-time-ek6d.vercel.app/"
+                  target="_blank"
+                >
+                  deloyment
                 </Link>{" "}
               </Flex>
             </CardFooter>
