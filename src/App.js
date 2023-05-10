@@ -18,7 +18,7 @@ function App() {
       <AboutMe />
   
       <Home />
-      <br/>
+    
       <TechnicalSkills />
       <br />
       <Projects />

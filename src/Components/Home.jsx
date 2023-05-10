@@ -1,9 +1,9 @@
 import React from "react";
 import styles from "../Styles/Home.module.css";
-
+import {Text,Divider} from "@chakra-ui/react";
 const About = () => {
   return (
-    <div id="home" className="about section" style={{marginTop:"-80px"}}>
+    <div id="about" className="about section" style={{marginTop:"-80px"}}>
       <div id={styles.aboutContainer} className="nav-link about">
         {/* Heading */}
         {/* <div className={styles.headingContainer}>
@@ -13,6 +13,9 @@ const About = () => {
         </div> */}
 
         {/* About me */}
+        <Text className="about_me_heading">About Me</Text>
+      <br />
+      <Divider width={"80%"} margin={"auto"} />
 
         <div id="user-detail-intro" className={styles.aboutme}>
           {/* <h3>

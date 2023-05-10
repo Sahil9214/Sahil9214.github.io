@@ -9,16 +9,13 @@ import {
   Divider,
 } from "@chakra-ui/react";
 import "../Styles/AboutMe.css";
-import Utkarsh from "../Images/Utkarsh.png"
-import resume from "../resume/utkarshResume.pdf"
+import Utkarsh from "../Images/Utkarsh.png";
+import resume from "../resume/utkarshResume.pdf";
 const AboutMe = () => {
   return (
-    <Box style={{ marginTop: "20px" }} id="about" className="about section">
-      <Text className="about_me_heading">About Me</Text>
+    <Box style={{ marginTop: "20px" }} className="about section" id="home">
       <br />
-      <Divider width={"80%"} margin={"auto"} />
-      <br />
-      <Flex className="block" style={{margin:"auto",width:"80%"}}>
+      <Flex className="block" style={{ margin: "auto", width: "80%" }}>
         <Box className="mainBox1" width={"70%"}>
           <Box
             style={{
@@ -31,7 +28,10 @@ const AboutMe = () => {
             }}
           >
             <Text className="name_Text" id="user-detail-name">
-              Hello <span>!</span> I Am <span style={{color:"red",fontWeight:"800"}} >Utkarsh Singhal</span>
+              Hello <span>!</span> I Am{" "}
+              <span style={{ color: "red", fontWeight: "800" }}>
+                Utkarsh Singhal
+              </span>
               <br /> Full Stack web developer
               <br /> 👋👋
             </Text>
@@ -52,12 +52,12 @@ const AboutMe = () => {
           <a
             href="https://drive.google.com/file/d/10oI6FnP85JxntvrHDRGOOe885SyFXYUl/view?usp=sharing"
             download={resume}
-       
           >
             {" "}
-            <Button className="resume_Btn" id="resume-link-1"    >
+            <Button className="resume_Btn" id="resume-link-1">
               Resume{" "}
-              <Image  id="resume-button-2"
+              <Image
+                id="resume-button-2"
                 width={"30px"}
                 src="https://user-images.githubusercontent.com/106021674/222917402-ed1d5989-90f3-45aa-9baa-26e3e2ca7699.png"
               />
@@ -65,7 +65,7 @@ const AboutMe = () => {
           </a>
         </Box>
         <Box className="mainBox2">
-         <Image className="home-img"     src={Utkarsh} alt="Image"/>
+          <Image className="home-img" src={Utkarsh} alt="Image" />
         </Box>
       </Flex>
     </Box>
