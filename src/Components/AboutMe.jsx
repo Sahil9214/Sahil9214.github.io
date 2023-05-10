@@ -53,8 +53,10 @@ const AboutMe = () => {
             <Button className="resume_Btn" id="resume-link-1">
               <a
                 id="resume-button-2"
-                href="https://drive.google.com/file/d/10oI6FnP85JxntvrHDRGOOe885SyFXYUl/view?usp=sharing"
-                download
+                href={resume}
+                download="Utkarsh_Singhal-Resume"
+                rel="noreferrer"
+                target="_blank"
               >
                 Resume{" "}
                 <Image
