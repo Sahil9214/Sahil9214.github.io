@@ -13,7 +13,7 @@ import {
   CardFooter,
   ButtonGroup,
 } from "@chakra-ui/react";
-
+import { Link } from "react-router-dom";
 import "../Styles/Project.css";
 const Projects = () => {
   return (
@@ -90,46 +90,43 @@ const Projects = () => {
 
             <CardFooter>
               <ButtonGroup spacing="2">
-                <Button
-                  variant="solid"
-                  colorScheme="blue"
-                  outline={"transparent solid 2px"}
-                  // className="project-github-link"
-                >
-                  <a
+                <Link href="https://github.com/palabhi017/Meesho-Clone">
+                  <Button
+                    variant="solid"
+                    colorScheme="blue"
+                    outline={"transparent solid 2px"}
                     className="project-github-link"
-                    href="https://github.com/palabhi017/Meesho-Clone"
                   >
                     {" "}
-                    Github
-                  </a>{" "}
-                  <img
-                    style={{ marginLeft: "7px" }}
-                    src="https://user-images.githubusercontent.com/106021674/223913675-1804f62d-0f4e-480f-bf35-5906d2fe4d7b.png"
-                    width="20px"
-                    height="18px"
-                    alt="github"
-                  />
-                </Button>
-                <Button
-                  variant="solid"
-                  colorScheme="blue"
-                  // className="project-deployed-link"
+                    Github{" "}
+                    <img
+                      style={{ marginLeft: "7px" }}
+                      src="https://user-images.githubusercontent.com/106021674/223913675-1804f62d-0f4e-480f-bf35-5906d2fe4d7b.png"
+                      width="20px"
+                      height="18px"
+                      alt="github"
+                    />
+                  </Button>
+                </Link>
+                <Link
+                  className="project-deployed-link"
+                  href="https://vague-acoustics-7371.vercel.app/"
                 >
-                  <a
-                    className="project-deployed-link"
-                    href="https://vague-acoustics-7371.vercel.app/"
+                  <Button
+                    variant="solid"
+                    colorScheme="blue"
+                    // className="project-deployed-link"
                   >
                     deloyment
-                  </a>{" "}
-                  <img
-                    style={{ marginLeft: "7px" }}
-                    src="https://user-images.githubusercontent.com/106021674/223914003-0ae735e1-be01-4c74-8988-d9679ce5d41b.png"
-                    width="20px"
-                    height="18px"
-                    alt="deployment"
-                  />
-                </Button>
+                    <img
+                      style={{ marginLeft: "7px" }}
+                      src="https://user-images.githubusercontent.com/106021674/223914003-0ae735e1-be01-4c74-8988-d9679ce5d41b.png"
+                      width="20px"
+                      height="18px"
+                      alt="deployment"
+                    />
+                  </Button>
+                </Link>{" "}
               </ButtonGroup>
             </CardFooter>
           </Card>
@@ -201,45 +198,42 @@ const Projects = () => {
 
             <CardFooter>
               <ButtonGroup spacing="2">
-                <Button
-                  // className="project-github-link"
-                  variant="solid"
-                  colorScheme="blue"
-                  outline={"transparent solid 2px"}
+                <Link
+                  className="project-github-link"
+                  href="https://github.com/pgariya/fleet-purpose-8648"
                 >
-                  <a
-                    className="project-github-link"
-                    href="https://github.com/pgariya/fleet-purpose-8648"
+                  <Button
+                    // className="project-github-link"
+                    variant="solid"
+                    colorScheme="blue"
+                    outline={"transparent solid 2px"}
                   >
                     Github
-                  </a>{" "}
-                  <img
-                    style={{ marginLeft: "7px" }}
-                    src="https://user-images.githubusercontent.com/106021674/223913675-1804f62d-0f4e-480f-bf35-5906d2fe4d7b.png"
-                    width="20px"
-                    height="18px"
-                    alt="github"
-                  />
-                </Button>
-                <Button
-                  variant="solid"
-                  colorScheme="blue"
-                  //  className="project-deployed-link"
-                >
-                  <a
+                    <img
+                      style={{ marginLeft: "7px" }}
+                      src="https://user-images.githubusercontent.com/106021674/223913675-1804f62d-0f4e-480f-bf35-5906d2fe4d7b.png"
+                      width="20px"
+                      height="18px"
+                      alt="github"
+                    />
+                  </Button>
+                </Link>{" "}
+                <Link href="https://rococo-sawine-4218f1.netlify.app/">
+                  <Button
+                    variant="solid"
+                    colorScheme="blue"
                     className="project-deployed-link"
-                    href="https://rococo-sawine-4218f1.netlify.app/"
                   >
                     deloyment
-                  </a>{" "}
-                  <img
-                    style={{ marginLeft: "7px" }}
-                    src="https://user-images.githubusercontent.com/106021674/223914003-0ae735e1-be01-4c74-8988-d9679ce5d41b.png"
-                    width="20px"
-                    height="18px"
-                    alt="deployment"
-                  />
-                </Button>
+                    <img
+                      style={{ marginLeft: "7px" }}
+                      src="https://user-images.githubusercontent.com/106021674/223914003-0ae735e1-be01-4c74-8988-d9679ce5d41b.png"
+                      width="20px"
+                      height="18px"
+                      alt="deployment"
+                    />
+                  </Button>
+                </Link>{" "}
               </ButtonGroup>
             </CardFooter>
           </Card>
@@ -315,12 +309,9 @@ const Projects = () => {
                   variant="solid"
                   colorScheme="blue"
                   outline={"transparent solid 2px"}
-                  // className="project-github-link"
+                  className="project-github-link"
                 >
-                  <a
-                    className="project-github-link"
-                    href="https://github.com/Alexfp05405/eminent-art-8078"
-                  >
+                  <a href="https://github.com/Alexfp05405/eminent-art-8078">
                     Github
                   </a>{" "}
                   <img
@@ -334,15 +325,9 @@ const Projects = () => {
                 <Button
                   variant="solid"
                   colorScheme="blue"
-                  // className="project-deployed-link"
+                  className="project-deployed-link"
                 >
-                  <a
-                    className="project-deployed-link"
-                    href="https://fatsecret.vercel.app/"
-                  >
-                    {" "}
-                    deloyment{" "}
-                  </a>
+                  <a href="https://fatsecret.vercel.app/"> deloyment </a>
                   <img
                     style={{ marginLeft: "7px" }}
                     src="https://user-images.githubusercontent.com/106021674/223914003-0ae735e1-be01-4c74-8988-d9679ce5d41b.png"
@@ -422,45 +407,39 @@ const Projects = () => {
 
             <CardFooter>
               <ButtonGroup spacing="2">
-                <Button
-                  variant="solid"
-                  colorScheme="blue"
-                  outline={"transparent solid 2px"}
-                  // className="project-github-link"
-                >
-                  <a
+                <Link href="https://github.com/Sahil9214/HindustanTime">
+                  <Button
+                    variant="solid"
+                    colorScheme="blue"
+                    outline={"transparent solid 2px"}
                     className="project-github-link"
-                    href="https://github.com/Sahil9214/HindustanTime"
                   >
                     Github
-                  </a>{" "}
-                  <img
-                    style={{ marginLeft: "7px" }}
-                    src="https://user-images.githubusercontent.com/106021674/223913675-1804f62d-0f4e-480f-bf35-5906d2fe4d7b.png"
-                    width="20px"
-                    height="18px"
-                    alt="github"
-                  />
-                </Button>
-                <Button
-                  variant="solid"
-                  colorScheme="blue"
-                  // className="project-deployed-link"
-                >
-                  <a
+                    <img
+                      style={{ marginLeft: "7px" }}
+                      src="https://user-images.githubusercontent.com/106021674/223913675-1804f62d-0f4e-480f-bf35-5906d2fe4d7b.png"
+                      width="20px"
+                      height="18px"
+                      alt="github"
+                    />
+                  </Button>
+                </Link>{" "}
+                <Link href="https://hindustan-time-ek6d.vercel.app/">
+                  <Button
+                    variant="solid"
+                    colorScheme="blue"
                     className="project-deployed-link"
-                    href="https://hindustan-time-ek6d.vercel.app/"
                   >
                     deloyment
-                  </a>{" "}
-                  <img
-                    style={{ marginLeft: "7px" }}
-                    src="https://user-images.githubusercontent.com/106021674/223914003-0ae735e1-be01-4c74-8988-d9679ce5d41b.png"
-                    width="20px"
-                    height="18px"
-                    alt="deployment"
-                  />
-                </Button>
+                    <img
+                      style={{ marginLeft: "7px" }}
+                      src="https://user-images.githubusercontent.com/106021674/223914003-0ae735e1-be01-4c74-8988-d9679ce5d41b.png"
+                      width="20px"
+                      height="18px"
+                      alt="deployment"
+                    />
+                  </Button>
+                </Link>{" "}
               </ButtonGroup>
             </CardFooter>
           </Card>
