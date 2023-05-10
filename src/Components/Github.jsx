@@ -98,7 +98,7 @@ const GitStats = () => {
           alt=""
         />
         <div className={styles.calender}>
-          <Box className="react-activity-calender">
+          <Box className="react-activity-calendar">
           <img src={calender} alt="" height={"100%"} width={"99%"} className="" />
           {/* <GitHubCalendar
           style={{ transform: "scale(18)" }}
