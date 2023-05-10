@@ -91,35 +91,32 @@ const Projects = () => {
 
             <CardFooter>
               <Flex spacing="2">
-                <Link
-                  href="https://github.com/palabhi017/Meesho-Clone"
-                  className="project-github-link"
-                  target={"_blank"}
-                >
-                  <Button
-                    variant="solid"
-                    colorScheme="blue"
-                    outline={"transparent solid 2px"}
-                    className="project-github-link"
+                <Box className="project-github-link">
+                  <Link
+                    href="https://github.com/palabhi017/Meesho-Clone"
+                    target={"_blank"}
                   >
-                    {" "}
-                    Github{" "}
-                  </Button>
-                </Link>
-                <Link
-                  style={{ marginLeft: "10px" }}
-                  className="project-deployed-link"
-                  href="https://vague-acoustics-7371.vercel.app/"
-                  target={"_blank"}
-                >
-                  <Button
-                    variant="solid"
-                    colorScheme="blue"
-                    className="project-deployed-link"
+                    <Button
+                      variant="solid"
+                      colorScheme="blue"
+                      outline={"transparent solid 2px"}
+                    >
+                      {" "}
+                      Github{" "}
+                    </Button>
+                  </Link>
+                </Box>
+                <Box className="project-deployed-link">
+                  <Link
+                    style={{ marginLeft: "10px" }}
+                    href="https://vague-acoustics-7371.vercel.app/"
+                    target={"_blank"}
                   >
-                    deloyment
-                  </Button>
-                </Link>{" "}
+                    <Button variant="solid" colorScheme="blue">
+                      deloyment
+                    </Button>
+                  </Link>{" "}
+                </Box>
               </Flex>
             </CardFooter>
           </Card>
@@ -191,34 +188,31 @@ const Projects = () => {
 
             <CardFooter>
               <Flex spacing="2">
-                <Link
-                  className="project-github-link"
-                  href="https://github.com/pgariya/fleet-purpose-8648"
-                  target={"_blank"}
-                >
-                  <Button
-                    variant="solid"
-                    colorScheme="blue"
-                    outline={"transparent solid 2px"}
-                    className="project-github-link"
+                <Box className="project-github-link">
+                  <Link
+                    href="https://github.com/pgariya/fleet-purpose-8648"
+                    target={"_blank"}
                   >
-                    Github
-                  </Button>
-                </Link>{" "}
-                <Link
-                  style={{ marginLeft: "10px" }}
-                  href="https://rococo-sawine-4218f1.netlify.app/"
-                  target={"_blank"}
-                  className="project-deployed-link"
-                >
-                  <Button
-                    variant="solid"
-                    colorScheme="blue"
-                    className="project-deployed-link"
+                    <Button
+                      variant="solid"
+                      colorScheme="blue"
+                      outline={"transparent solid 2px"}
+                    >
+                      Github
+                    </Button>
+                  </Link>{" "}
+                </Box>
+                <Box className="project-deployed-link">
+                  <Link
+                    style={{ marginLeft: "10px" }}
+                    href="https://rococo-sawine-4218f1.netlify.app/"
+                    target={"_blank"}
                   >
-                    deloyment
-                  </Button>
-                </Link>{" "}
+                    <Button variant="solid" colorScheme="blue">
+                      deloyment
+                    </Button>
+                  </Link>{" "}
+                </Box>
               </Flex>
             </CardFooter>
           </Card>
@@ -290,37 +284,32 @@ const Projects = () => {
 
             <CardFooter>
               <Flex spacing="2">
-                <Link
-                  href="https://github.com/Alexfp05405/eminent-art-8078"
-                  target="_blank"
-                  className="project-github-link"
-                >
-                  <Button
-                    variant="solid"
-                    colorScheme="blue"
-                    className="project-github-link"
-                    outline={"transparent solid 2px"}
+                <Box className="project-github-link">
+                  <Link
+                    href="https://github.com/Alexfp05405/eminent-art-8078"
+                    target="_blank"
                   >
-                    Github{" "}
-                    
-                  </Button>
-                </Link>
-                <Link
-                  style={{ marginLeft: "10px" }}
-                  target="_blank"
-                  href="https://fatsecret.vercel.app/"
-                  className="project-deployed-link"
-                >
-                  <Button
-                    variant="solid"
-                    colorScheme="blue"
-                    className="project-deployed-link"
+                    <Button
+                      variant="solid"
+                      colorScheme="blue"
+                      outline={"transparent solid 2px"}
+                    >
+                      Github{" "}
+                    </Button>
+                  </Link>
+                </Box>
+                <Box className="project-deployed-link">
+                  <Link
+                    style={{ marginLeft: "10px" }}
+                    target="_blank"
+                    href="https://fatsecret.vercel.app/"
                   >
-                    {" "}
-                    deloyment
-                    
-                  </Button>
-                </Link>
+                    <Button variant="solid" colorScheme="blue">
+                      {" "}
+                      deloyment
+                    </Button>
+                  </Link>
+                </Box>
               </Flex>
             </CardFooter>
           </Card>
@@ -392,34 +381,31 @@ const Projects = () => {
 
             <CardFooter>
               <Flex spacing="2">
-                <Link
-                  href="https://github.com/Sahil9214/HindustanTime"
-                  className="project-github-link"
-                  target={"_blank"}
-                >
-                  <Button
-                    variant="solid"
-                    className="project-github-link"
-                    colorScheme="blue"
-                    outline={"transparent solid 2px"}
+                <Box className="project-github-link">
+                  <Link
+                    href="https://github.com/Sahil9214/HindustanTime"
+                    target={"_blank"}
                   >
-                    Github
-                  </Button>
-                </Link>{" "}
-                <Link
-                  style={{ marginLeft: "10px" }}
-                  href="https://hindustan-time-ek6d.vercel.app/"
-                  className="project-deployed-link"
-                  target="_blank"
-                >
-                  <Button
-                    variant="solid"
-                    colorScheme="blue"
-                    className="project-deployed-link"
+                    <Button
+                      variant="solid"
+                      colorScheme="blue"
+                      outline={"transparent solid 2px"}
+                    >
+                      Github
+                    </Button>
+                  </Link>{" "}
+                </Box>
+                <Box className="project-deployed-link">
+                  <Link
+                    style={{ marginLeft: "10px" }}
+                    href="https://hindustan-time-ek6d.vercel.app/"
+                    target="_blank"
                   >
-                    deloyment
-                  </Button>
-                </Link>{" "}
+                    <Button variant="solid" colorScheme="blue">
+                      deloyment
+                    </Button>
+                  </Link>{" "}
+                </Box>
               </Flex>
             </CardFooter>
           </Card>
