@@ -90,7 +90,7 @@ const Projects = () => {
             </Box>
 
             <CardFooter>
-              <ButtonGroup spacing="2">
+              <Flex spacing="2">
                 <Link
                   href="https://github.com/palabhi017/Meesho-Clone"
                   className="project-github-link"
@@ -112,7 +112,8 @@ const Projects = () => {
                     />
                   </Button>
                 </Link>
-                <Link
+               
+                <Link style={{marginLeft:"10px"}}
                   className="project-deployed-link"
                   href="https://vague-acoustics-7371.vercel.app/"
                   target={"_blank"}
@@ -132,7 +133,7 @@ const Projects = () => {
                     />
                   </Button>
                 </Link>{" "}
-              </ButtonGroup>
+              </Flex>
             </CardFooter>
           </Card>
           {/* card 2 */}
@@ -202,7 +203,7 @@ const Projects = () => {
             </Box>
 
             <CardFooter>
-              <ButtonGroup spacing="2">
+              <Flex spacing="2">
                 <Link
                   className="project-github-link"
                   href="https://github.com/pgariya/fleet-purpose-8648"
@@ -224,7 +225,7 @@ const Projects = () => {
                     />
                   </Button>
                 </Link>{" "}
-                <Link
+                <Link style={{marginLeft:"10px"}}
                   href="https://rococo-sawine-4218f1.netlify.app/"
                   target={"_blank"}
                   className="project-deployed-link"
@@ -240,7 +241,7 @@ const Projects = () => {
                     />
                   </Button>
                 </Link>{" "}
-              </ButtonGroup>
+              </Flex>
             </CardFooter>
           </Card>
         </Flex>
@@ -310,7 +311,7 @@ const Projects = () => {
             </Box>
 
             <CardFooter>
-              <ButtonGroup spacing="2">
+              <Flex spacing="2">
                 <Link
                   href="https://github.com/Alexfp05405/eminent-art-8078"
                   target="_blank"
@@ -332,7 +333,7 @@ const Projects = () => {
                     />
                   </Button>
                 </Link>
-                <Link
+                <Link style={{marginLeft:"10px"}}
                   target="_blank"
                   href="https://fatsecret.vercel.app/"
                   className="project-deployed-link"
@@ -349,7 +350,7 @@ const Projects = () => {
                     />
                   </Button>
                 </Link>
-              </ButtonGroup>
+              </Flex>
             </CardFooter>
           </Card>
           {/* card 2 */}
@@ -419,7 +420,7 @@ const Projects = () => {
             </Box>
 
             <CardFooter>
-              <ButtonGroup spacing="2">
+              <Flex spacing="2">
                 <Link
                   href="https://github.com/Sahil9214/HindustanTime"
                   className="project-github-link"
@@ -440,7 +441,7 @@ const Projects = () => {
                     />
                   </Button>
                 </Link>{" "}
-                <Link
+                <Link style={{marginLeft:"10px"}}
                   href="https://hindustan-time-ek6d.vercel.app/"
                   className="project-deployed-link"
                   target="_blank"
@@ -456,7 +457,7 @@ const Projects = () => {
                     />
                   </Button>
                 </Link>{" "}
-              </ButtonGroup>
+              </Flex>
             </CardFooter>
           </Card>
         </Flex>
