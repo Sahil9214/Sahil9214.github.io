@@ -314,12 +314,13 @@ const Projects = () => {
                 <Link
                   href="https://github.com/Alexfp05405/eminent-art-8078"
                   target="_blank"
+                  className="project-github-link"
                 >
                   <Button
                     variant="solid"
                     colorScheme="blue"
                     outline={"transparent solid 2px"}
-                    className="project-github-link"
+                
                   >
                     Github{" "}
                     <img
