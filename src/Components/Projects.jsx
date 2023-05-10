@@ -91,30 +91,28 @@ const Projects = () => {
               </Box>
             </Box>
 
-            <CardFooter>
-              <Flex spacing="2">
-                <Link
-                  className="project-github-link"
-                  href="https://github.com/palabhi017/Meesho-Clone"
-                  target={"_blank"}
-                >
-                  <Button colorScheme="blue" solid>
-                    {" "}
-                    Github{" "}
-                  </Button>
-                </Link>
-                <Link
-                  style={{ marginLeft: "10px" }}
-                  className="project-deployed-link"
-                  href="https://vague-acoustics-7371.vercel.app/"
-                  target={"_blank"}
-                >
-                  <Button colorScheme="blue" solid>
-                    deloyment
-                  </Button>
-                </Link>{" "}
-              </Flex>
-            </CardFooter>
+            <Flex spacing="2">
+              <Link
+                className="project-github-link"
+                href="https://github.com/palabhi017/Meesho-Clone"
+                target={"_blank"}
+              >
+                <Button colorScheme="blue" solid>
+                  {" "}
+                  Github{" "}
+                </Button>
+              </Link>
+              <Link
+                style={{ marginLeft: "10px" }}
+                className="project-deployed-link"
+                href="https://vague-acoustics-7371.vercel.app/"
+                target={"_blank"}
+              >
+                <Button colorScheme="blue" solid>
+                  deloyment
+                </Button>
+              </Link>{" "}
+            </Flex>
           </Card>
           {/* card 2 */}
           <br />
@@ -182,29 +180,27 @@ const Projects = () => {
               </Box>
             </Box>
 
-            <CardFooter>
-              <Flex spacing="2">
-                <Link
-                 
-                  className="project-github-link"
-                  href="https://github.com/pgariya/fleet-purpose-8648"
-                  target={"_blank"}
-                >
-                  <Button colorScheme="blue" solid>
-                    Github
-                  </Button>
-                </Link>{" "}
-                <Link  style={{ marginLeft: "10px" }}
-                  className="project-deployed-link"
-                  href="https://rococo-sawine-4218f1.netlify.app/"
-                  target={"_blank"}
-                >
-                  <Button colorScheme="blue" solid>
-                    deloyment
-                  </Button>
-                </Link>{" "}
-              </Flex>
-            </CardFooter>
+            <Flex spacing="2">
+              <Link
+                className="project-github-link"
+                href="https://github.com/pgariya/fleet-purpose-8648"
+                target={"_blank"}
+              >
+                <Button colorScheme="blue" solid>
+                  Github
+                </Button>
+              </Link>{" "}
+              <Link
+                style={{ marginLeft: "10px" }}
+                className="project-deployed-link"
+                href="https://rococo-sawine-4218f1.netlify.app/"
+                target={"_blank"}
+              >
+                <Button colorScheme="blue" solid>
+                  deloyment
+                </Button>
+              </Link>{" "}
+            </Flex>
           </Card>
         </Flex>
         {/* FlexBox2 */}
@@ -272,30 +268,28 @@ const Projects = () => {
               </Box>
             </Box>
 
-            <CardFooter>
-              <Flex spacing="2">
-                <Link
-                  className="project-github-link"
-                  href="https://github.com/Alexfp05405/eminent-art-8078"
-                  target="_blank"
-                >
-                  <Button colorScheme="blue" solid>
-                    Github{" "}
-                  </Button>
-                </Link>
-                <Link
-                  style={{ marginLeft: "10px" }}
-                  className="project-deployed-link"
-                  target="_blank"
-                  href="https://fatsecret.vercel.app/"
-                >
-                  <Button colorScheme="blue" solid>
-                    {" "}
-                    deloyment
-                  </Button>
-                </Link>
-              </Flex>
-            </CardFooter>
+            <Flex spacing="2">
+              <Link
+                className="project-github-link"
+                href="https://github.com/Alexfp05405/eminent-art-8078"
+                target="_blank"
+              >
+                <Button colorScheme="blue" solid>
+                  Github{" "}
+                </Button>
+              </Link>
+              <Link
+                style={{ marginLeft: "10px" }}
+                className="project-deployed-link"
+                target="_blank"
+                href="https://fatsecret.vercel.app/"
+              >
+                <Button colorScheme="blue" solid>
+                  {" "}
+                  deloyment
+                </Button>
+              </Link>
+            </Flex>
           </Card>
           {/* card 2 */}
           <br />
@@ -363,29 +357,27 @@ const Projects = () => {
               </Box>
             </Box>
 
-            <CardFooter>
-              <Flex spacing="2">
-                <Link
-                  className="project-github-link"
-                  href="https://github.com/Sahil9214/HindustanTime"
-                  target={"_blank"}
-                >
-                  <Button colorScheme="blue" solid>
-                    Github
-                  </Button>
-                </Link>{" "}
-                <Link
-                  style={{ marginLeft: "10px" }}
-                  className="project-deployed-link"
-                  href="https://hindustan-time-ek6d.vercel.app/"
-                  target="_blank"
-                >
-                  <Button colorScheme="blue" solid>
-                    deloyment
-                  </Button>
-                </Link>{" "}
-              </Flex>
-            </CardFooter>
+            <Flex spacing="2">
+              <Link
+                className="project-github-link"
+                href="https://github.com/Sahil9214/HindustanTime"
+                target={"_blank"}
+              >
+                <Button colorScheme="blue" solid>
+                  Github
+                </Button>
+              </Link>{" "}
+              <Link
+                style={{ marginLeft: "10px" }}
+                className="project-deployed-link"
+                href="https://hindustan-time-ek6d.vercel.app/"
+                target="_blank"
+              >
+                <Button colorScheme="blue" solid>
+                  deloyment
+                </Button>
+              </Link>{" "}
+            </Flex>
           </Card>
         </Flex>
       </Box>
@@ -394,210 +386,3 @@ const Projects = () => {
 };
 
 export default Projects;
-
-// export default Projects;
-// import React from "react";
-// import Ikea from "../Images/Ikea.png"
-// import Meesho from "../Images/meesho.png"
-// import { SiNetlify } from "react-icons/si";
-// import Hindustan from '../Images/Hindustan.png'
-// import Tracking from "../Images/Tracking.png"
-// import { AiFillGithub } from "react-icons/ai";
-
-// const Projects = () => {
-//   return (
-//     <div id="projects" style={{border:"9px solid red"}}>
-//       <section >
-//         <div className="main-text">
-//           <h2>
-//             <span>Latest </span>Projects
-//           </h2>
-//         </div>
-
-//         <div className="nav-link projects" id="nav-link-projects">
-//           <div className="project-card">
-//             <img src={Meesho} alt="" />
-//             <div className="layer">
-//               <h5 className="project-title">Apple.com</h5>
-//               <p
-//                 style={{
-//                   fontSize: "1rem",
-//                   fontWeight: "500",
-//                   lineHeight: "1.5",
-//                 }}
-//                 className="project-description">
-//                 Apple Inc. (formerly Apple Computer Inc.) is an American computer and consumer electronics company famous for creating the iPhone, iPad and Macintosh computers.
-//               </p>
-//               <p className="project-tech-stack">
-//                 Tech-Stack : REACT, JS, HTML, CSS, Chakra
-//               </p>
-//               <div
-//                 style={{
-//                   display: "flex",
-//                   marginTop: "-1.1rem",
-//                   gap: "1rem",
-//                 }}>
-//                 <div className="project-deployed-link">
-//                   <a
-//                     href="https://matrix-opal.vercel.app/"
-//                     target="_blank">
-//                     <i>
-//                       <SiNetlify />
-//                     </i>
-//                   </a>
-//                 </div>
-//                 <div >
-//                   <a
-//                     href="https://github.com/Sagarbisht07/Perpetual-fact-6008"
-//                     target="_blank"
-//                     id="project-deployed-link">
-//                     <i>
-//                       <AiFillGithub />
-//                     </i>
-//                   </a>
-//                 </div>
-//               </div>
-//             </div>
-//           </div>
-
-//           <div className="project-card">
-//             <img src={Ikea} alt="" />
-//             <div className="layer">
-//               <h5 className="project-title">WardrobeWorld</h5>
-//               <p
-//                 style={{
-//                   fontSize: "1rem",
-//                   fontWeight: "500",
-//                   lineHeight: "1.5",
-//                 }}
-//                 className="project-description">
-//                WardrobeWorld is an e-commerce website where people can buy from wide range of products and has an interactive UI. We are a one stop shop for all your fashion and lifestyle needs.
-//               </p>
-//               <p className="project-tech-stack">
-//                 Tech-Stack : REACT, JS, HTML, CSS, Chakra
-//               </p>
-//               <div
-//                 style={{
-//                   display: "flex",
-//                   marginTop: "-1.1rem",
-//                   gap: "1rem",
-//                 }}>
-//                 <div className="project-deployed-link">
-//                   <a
-//                     href="https://wardrobe-world.vercel.app/"
-//                     target="_blank">
-//                     <i>
-//                       <SiNetlify />
-//                     </i>
-//                   </a>
-//                 </div>
-//                 <div >
-//                   <a
-//                     href="https://github.com/Sagarbisht07/crabby-whistle-3208"
-//                     target="_blank"
-//                     id="project-deployed-link">
-//                     <i>
-//                       <AiFillGithub />
-//                     </i>
-//                   </a>
-//                 </div>
-//               </div>
-//             </div>
-//           </div>
-
-//           <div className="project-card">
-//             <img src={Tracking} alt="" />
-//             <div className="layer">
-//               <h5 className="project-title">CodePen</h5>
-//               <p
-//                 style={{
-//                   fontSize: "1rem",
-//                   fontWeight: "500",
-//                   lineHeight: "1.5",
-//                 }}
-//                 className="project-description">
-//                 CodePen is an online community for testing and showcasing user-created HTML, CSS and JavaScript code snippets.
-//               </p>
-//               <p className="project-tech-stack">
-//                 Tech-Stack : REACT, JS, HTML, CSS, Chakra
-//               </p>
-//               <div
-//                 style={{
-//                   display: "flex",
-//                   marginTop: "-1.1rem",
-//                   gap: "1rem",
-//                 }}>
-//                 <div className="project-deployed-link">
-//                   <a
-//                     href="https://precious-blini-afdd2e.netlify.app/"
-//                     target="_blank">
-//                     <i>
-//                       <SiNetlify />
-//                     </i>
-//                   </a>
-//                 </div>
-//                 <div className="project-github-link">
-//                   <a
-//                     href="https://github.com/Sagarbisht07/Code-Editior"
-//                     target="_blank"
-//                     id="project-deployed-link">
-//                     <i>
-//                       <AiFillGithub />
-//                     </i>
-//                   </a>
-//                 </div>
-//               </div>
-//             </div>
-//           </div>
-
-//           <div className="project-card">
-//             <img src={Hindustan} alt="" />
-//             <div className="layer">
-//               <h5 className="project-title">outfitr.com</h5>
-//               <p
-//                 style={{
-//                   fontSize: "1rem",
-//                   fontWeight: "500",
-//                   lineHeight: "1.5",
-//                 }}
-//                 className="project-description">
-//                   Outfitr is an e-commerce website where people can buy from wide range of products and has an interactive UI. We are a one stop shop for all your fashion and lifestyle needs.
-//               </p>
-//               <p className="project-tech-stack">
-//                 Tech-Stack : REACT, JS, HTML, CSS, Chakra
-//               </p>
-//               <div
-//                 style={{
-//                   display: "flex",
-//                   marginTop: "-1.1rem",
-//                   gap: "1rem",
-//                 }}>
-//                 <div className="project-deployed-link">
-//                   <a
-//                     href="https://outfiter.vercel.app/"
-//                     target="_blank">
-//                     <i>
-//                       <SiNetlify />
-//                     </i>
-//                   </a>
-//                 </div>
-//                 <div className="project-github-link">
-//                   <a
-//                     href="https://github.com/Sagarbisht07/shrill-yam-9521"
-//                     target="_blank"
-//                     id="project-deployed-link">
-//                     <i>
-//                       <AiFillGithub />
-//                     </i>
-//                   </a>
-//                 </div>
-//               </div>
-//             </div>
-//           </div>
-//         </div>
-//       </section>
-//     </div>
-//   );
-// };
-
-// export default Projects;
