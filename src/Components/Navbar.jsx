@@ -61,7 +61,7 @@ export default function Navbar() {
               fontSize="19px"
             >
               <a
-                className="nav-link home"
+                className="nav-link about"
                 href="#home"
                 style={{
                   fontSize: "23px",
@@ -73,7 +73,7 @@ export default function Navbar() {
                 Home
               </a>
 
-              <a className="nav-link about" href="#about">
+              <a className="nav-link home" href="#about">
                 About
               </a>
               <a className="nav-link skills" href="#skills">
