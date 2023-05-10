@@ -66,7 +66,7 @@ const Projects = () => {
                   fontWeight: "900",
                   padding: "5px 10px",
                   borderRadius: "10px 18px",
-                  marginRight : "220px",
+                  marginRight: "220px",
                 }}
               >
                 Collaborative
@@ -75,20 +75,19 @@ const Projects = () => {
               <br />
 
               <Box style={{ gap: "10px" }}>
-             
-              <Box className="tech_used_span" style={{ gap: "10px" }}>
-                <span className="tech_used_span1">CSS</span>
+                <Box className="tech_used_span" style={{ gap: "10px" }}>
+                  <span className="tech_used_span1">CSS</span>
 
-                <span className="tech_used_span2"> HTML</span>
+                  <span className="tech_used_span2"> HTML</span>
 
-                <span className="tech_used_span4">API</span>
-                <br />
-                <br />
-                <span className="tech_used_span5">JavaScript</span>
+                  <span className="tech_used_span4">API</span>
+                  <br />
+                  <br />
+                  <span className="tech_used_span5">JavaScript</span>
 
-                <span className="tech_used_span7">Cylic deployment</span>
-                <span className="tech_used_span8">Json-Server</span>
-              </Box>
+                  <span className="tech_used_span7">Cylic deployment</span>
+                  <span className="tech_used_span8">Json-Server</span>
+                </Box>
               </Box>
             </Box>
 
@@ -96,6 +95,7 @@ const Projects = () => {
               <Flex spacing="2">
                 <Box className="project-github-link">
                   <Link
+                    className="project-github-link"
                     href="https://github.com/palabhi017/Meesho-Clone"
                     target={"_blank"}
                   >
@@ -191,8 +191,9 @@ const Projects = () => {
 
             <CardFooter>
               <Flex spacing="2">
-                <Box >
+                <Box>
                   <Link
+                    className="project-github-link"
                     href="https://github.com/pgariya/fleet-purpose-8648"
                     target={"_blank"}
                   >
@@ -287,8 +288,9 @@ const Projects = () => {
 
             <CardFooter>
               <Flex spacing="2">
-                <Box >
+                <Box>
                   <Link
+                    className="project-github-link"
                     href="https://github.com/Alexfp05405/eminent-art-8078"
                     target="_blank"
                   >
@@ -384,8 +386,9 @@ const Projects = () => {
 
             <CardFooter>
               <Flex spacing="2">
-                <Box >
+                <Box>
                   <Link
+                    className="project-github-link"
                     href="https://github.com/Sahil9214/HindustanTime"
                     target={"_blank"}
                   >
