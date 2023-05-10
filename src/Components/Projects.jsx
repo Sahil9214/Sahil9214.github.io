@@ -103,17 +103,17 @@ const Projects = () => {
                   >
                     {" "}
                     Github{" "}
-                    <img
+                    {/* <img
                       style={{ marginLeft: "7px" }}
                       src="https://user-images.githubusercontent.com/106021674/223913675-1804f62d-0f4e-480f-bf35-5906d2fe4d7b.png"
                       width="20px"
                       height="18px"
                       alt="github"
-                    />
+                    /> */}
                   </Button>
                 </Link>
-               
-                <Link style={{marginLeft:"10px"}}
+                <Link
+                  style={{ marginLeft: "10px" }}
                   className="project-deployed-link"
                   href="https://vague-acoustics-7371.vercel.app/"
                   target={"_blank"}
@@ -124,13 +124,13 @@ const Projects = () => {
                     // className="project-deployed-link"
                   >
                     deloyment
-                    <img
+                    {/* <img
                       style={{ marginLeft: "7px" }}
                       src="https://user-images.githubusercontent.com/106021674/223914003-0ae735e1-be01-4c74-8988-d9679ce5d41b.png"
                       width="20px"
                       height="18px"
                       alt="deployment"
-                    />
+                    /> */}
                   </Button>
                 </Link>{" "}
               </Flex>
@@ -210,35 +210,35 @@ const Projects = () => {
                   target={"_blank"}
                 >
                   <Button
-                   
                     variant="solid"
                     colorScheme="blue"
                     outline={"transparent solid 2px"}
                   >
                     Github
-                    <img
+                    {/* <img
                       style={{ marginLeft: "7px" }}
                       src="https://user-images.githubusercontent.com/106021674/223913675-1804f62d-0f4e-480f-bf35-5906d2fe4d7b.png"
                       width="20px"
                       height="18px"
                       alt="github"
-                    />
+                    /> */}
                   </Button>
                 </Link>{" "}
-                <Link style={{marginLeft:"10px"}}
+                <Link
+                  style={{ marginLeft: "10px" }}
                   href="https://rococo-sawine-4218f1.netlify.app/"
                   target={"_blank"}
                   className="project-deployed-link"
                 >
                   <Button variant="solid" colorScheme="blue">
                     deloyment
-                    <img
+                    {/* <img
                       style={{ marginLeft: "7px" }}
                       src="https://user-images.githubusercontent.com/106021674/223914003-0ae735e1-be01-4c74-8988-d9679ce5d41b.png"
                       width="20px"
                       height="18px"
                       alt="deployment"
-                    />
+                    /> */}
                   </Button>
                 </Link>{" "}
               </Flex>
@@ -321,19 +321,19 @@ const Projects = () => {
                     variant="solid"
                     colorScheme="blue"
                     outline={"transparent solid 2px"}
-                
                   >
                     Github{" "}
-                    <img
+                    {/* <img
                       style={{ marginLeft: "7px" }}
                       src="https://user-images.githubusercontent.com/106021674/223913675-1804f62d-0f4e-480f-bf35-5906d2fe4d7b.png"
                       width="20px"
                       height="18px"
                       alt="github"
-                    />
+                    /> */}
                   </Button>
                 </Link>
-                <Link style={{marginLeft:"10px"}}
+                <Link
+                  style={{ marginLeft: "10px" }}
                   target="_blank"
                   href="https://fatsecret.vercel.app/"
                   className="project-deployed-link"
@@ -341,13 +341,13 @@ const Projects = () => {
                   <Button variant="solid" colorScheme="blue">
                     {" "}
                     deloyment
-                    <img
+                    {/* <img
                       style={{ marginLeft: "7px" }}
                       src="https://user-images.githubusercontent.com/106021674/223914003-0ae735e1-be01-4c74-8988-d9679ce5d41b.png"
                       width="20px"
                       height="18px"
                       alt="deployment"
-                    />
+                    /> */}
                   </Button>
                 </Link>
               </Flex>
@@ -369,7 +369,7 @@ const Projects = () => {
                 <Heading
                   className="project-title"
                   fontWeight={"700"}
-                  style={{ fontFamily: " Lobster Two, cursive" }}
+                  style={{ fontFamily: "Lobster Two, cursive" }}
                   size="md"
                 >
                   Hindustan.com website
@@ -381,7 +381,7 @@ const Projects = () => {
                   Hindustan Times is an Indian English-language daily newspaper
                   based in Delhi. It is the flagship publication of HT Media, an
                   entity controlled by the K. K. Birla family, and is owned by
-                  Shobhana Bhartia.[2][
+                  Shobhana Bhartia.[2]
                 </Text>
               </Stack>
             </CardBody>
@@ -432,29 +432,30 @@ const Projects = () => {
                     outline={"transparent solid 2px"}
                   >
                     Github
-                    <img
+                    {/* <img
                       style={{ marginLeft: "7px" }}
                       src="https://user-images.githubusercontent.com/106021674/223913675-1804f62d-0f4e-480f-bf35-5906d2fe4d7b.png"
                       width="20px"
                       height="18px"
                       alt="github"
-                    />
+                    /> */}
                   </Button>
                 </Link>{" "}
-                <Link style={{marginLeft:"10px"}}
+                <Link
+                  style={{ marginLeft: "10px" }}
                   href="https://hindustan-time-ek6d.vercel.app/"
                   className="project-deployed-link"
                   target="_blank"
                 >
                   <Button variant="solid" colorScheme="blue">
                     deloyment
-                    <img
+                    {/* <img
                       style={{ marginLeft: "7px" }}
                       src="https://user-images.githubusercontent.com/106021674/223914003-0ae735e1-be01-4c74-8988-d9679ce5d41b.png"
                       width="20px"
                       height="18px"
                       alt="deployment"
-                    />
+                    /> */}
                   </Button>
                 </Link>{" "}
               </Flex>
