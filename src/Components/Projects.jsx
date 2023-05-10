@@ -91,7 +91,7 @@ const Projects = () => {
 
             <CardFooter>
               <Flex spacing="2">
-                <Link
+                <a
                   href="https://github.com/palabhi017/Meesho-Clone"
                   className="project-github-link"
                   target={"_blank"}
@@ -111,8 +111,8 @@ const Projects = () => {
                       alt="github"
                     /> */}
                   </Button>
-                </Link>
-                <Link
+                </a>
+                <a
                   style={{ marginLeft: "10px" }}
                   className="project-deployed-link"
                   href="https://vague-acoustics-7371.vercel.app/"
@@ -132,7 +132,7 @@ const Projects = () => {
                       alt="deployment"
                     /> */}
                   </Button>
-                </Link>{" "}
+                </a>{" "}
               </Flex>
             </CardFooter>
           </Card>
@@ -204,7 +204,7 @@ const Projects = () => {
 
             <CardFooter>
               <Flex spacing="2">
-                <Link
+                <a
                   className="project-github-link"
                   href="https://github.com/pgariya/fleet-purpose-8648"
                   target={"_blank"}
@@ -223,8 +223,8 @@ const Projects = () => {
                       alt="github"
                     /> */}
                   </Button>
-                </Link>{" "}
-                <Link
+                </a>{" "}
+                <a
                   style={{ marginLeft: "10px" }}
                   href="https://rococo-sawine-4218f1.netlify.app/"
                   target={"_blank"}
@@ -240,7 +240,7 @@ const Projects = () => {
                       alt="deployment"
                     /> */}
                   </Button>
-                </Link>{" "}
+                </a>{" "}
               </Flex>
             </CardFooter>
           </Card>
@@ -312,7 +312,7 @@ const Projects = () => {
 
             <CardFooter>
               <Flex spacing="2">
-                <Link
+                <a
                   href="https://github.com/Alexfp05405/eminent-art-8078"
                   target="_blank"
                   className="project-github-link"
@@ -331,8 +331,8 @@ const Projects = () => {
                       alt="github"
                     /> */}
                   </Button>
-                </Link>
-                <Link
+                </a>
+                <a
                   style={{ marginLeft: "10px" }}
                   target="_blank"
                   href="https://fatsecret.vercel.app/"
@@ -349,7 +349,7 @@ const Projects = () => {
                       alt="deployment"
                     /> */}
                   </Button>
-                </Link>
+                </a>
               </Flex>
             </CardFooter>
           </Card>
