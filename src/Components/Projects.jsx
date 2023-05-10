@@ -10,7 +10,6 @@ import {
   Heading,
   Stack,
   Card,
-
   CardFooter,
   ButtonGroup,
 } from "@chakra-ui/react";
@@ -95,9 +94,12 @@ const Projects = () => {
                   variant="solid"
                   colorScheme="blue"
                   outline={"transparent solid 2px"}
-                  className="project-github-link"
+                  // className="project-github-link"
                 >
-                  <a href="https://github.com/palabhi017/Meesho-Clone">
+                  <a
+                    className="project-github-link"
+                    href="https://github.com/palabhi017/Meesho-Clone"
+                  >
                     {" "}
                     Github
                   </a>{" "}
@@ -112,9 +114,12 @@ const Projects = () => {
                 <Button
                   variant="solid"
                   colorScheme="blue"
-                  className="project-deployed-link"
+                  // className="project-deployed-link"
                 >
-                  <a href="https://vague-acoustics-7371.vercel.app/">
+                  <a
+                    className="project-deployed-link"
+                    href="https://vague-acoustics-7371.vercel.app/"
+                  >
                     deloyment
                   </a>{" "}
                   <img
@@ -132,6 +137,7 @@ const Projects = () => {
           <br />
           <br />
           <br />
+
           <Card maxW="lg" className="CardProjects">
             <CardBody className="project-card">
               <Image
@@ -196,12 +202,15 @@ const Projects = () => {
             <CardFooter>
               <ButtonGroup spacing="2">
                 <Button
-                  className="project-github-link"
+                  // className="project-github-link"
                   variant="solid"
                   colorScheme="blue"
                   outline={"transparent solid 2px"}
                 >
-                  <a href="https://github.com/pgariya/fleet-purpose-8648">
+                  <a
+                    className="project-github-link"
+                    href="https://github.com/pgariya/fleet-purpose-8648"
+                  >
                     Github
                   </a>{" "}
                   <img
@@ -212,8 +221,15 @@ const Projects = () => {
                     alt="github"
                   />
                 </Button>
-                <Button variant="solid" colorScheme="blue" className="project-deployed-link"  >
-                  <a href="https://rococo-sawine-4218f1.netlify.app/">
+                <Button
+                  variant="solid"
+                  colorScheme="blue"
+                  //  className="project-deployed-link"
+                >
+                  <a
+                    className="project-deployed-link"
+                    href="https://rococo-sawine-4218f1.netlify.app/"
+                  >
                     deloyment
                   </a>{" "}
                   <img
@@ -299,9 +315,12 @@ const Projects = () => {
                   variant="solid"
                   colorScheme="blue"
                   outline={"transparent solid 2px"}
-                  className="project-github-link"
+                  // className="project-github-link"
                 >
-                  <a href="https://github.com/Alexfp05405/eminent-art-8078">
+                  <a
+                    className="project-github-link"
+                    href="https://github.com/Alexfp05405/eminent-art-8078"
+                  >
                     Github
                   </a>{" "}
                   <img
@@ -315,9 +334,15 @@ const Projects = () => {
                 <Button
                   variant="solid"
                   colorScheme="blue"
-                  className="project-deployed-link"
+                  // className="project-deployed-link"
                 >
-                  <a href="https://fatsecret.vercel.app/"> deloyment </a>
+                  <a
+                    className="project-deployed-link"
+                    href="https://fatsecret.vercel.app/"
+                  >
+                    {" "}
+                    deloyment{" "}
+                  </a>
                   <img
                     style={{ marginLeft: "7px" }}
                     src="https://user-images.githubusercontent.com/106021674/223914003-0ae735e1-be01-4c74-8988-d9679ce5d41b.png"
@@ -401,9 +426,12 @@ const Projects = () => {
                   variant="solid"
                   colorScheme="blue"
                   outline={"transparent solid 2px"}
-                  className="project-github-link"
+                  // className="project-github-link"
                 >
-                  <a href="https://github.com/Sahil9214/HindustanTime">
+                  <a
+                    className="project-github-link"
+                    href="https://github.com/Sahil9214/HindustanTime"
+                  >
                     Github
                   </a>{" "}
                   <img
@@ -417,9 +445,12 @@ const Projects = () => {
                 <Button
                   variant="solid"
                   colorScheme="blue"
-                  className="project-deployed-link"
+                  // className="project-deployed-link"
                 >
-                  <a href="https://hindustan-time-ek6d.vercel.app/">
+                  <a
+                    className="project-deployed-link"
+                    href="https://hindustan-time-ek6d.vercel.app/"
+                  >
                     deloyment
                   </a>{" "}
                   <img
