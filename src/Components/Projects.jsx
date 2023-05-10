@@ -191,7 +191,7 @@ const Projects = () => {
 
             <CardFooter>
               <Flex spacing="2">
-                <Box className="project-github-link">
+                <Box >
                   <Link
                     href="https://github.com/pgariya/fleet-purpose-8648"
                     target={"_blank"}
@@ -287,7 +287,7 @@ const Projects = () => {
 
             <CardFooter>
               <Flex spacing="2">
-                <Box className="project-github-link">
+                <Box >
                   <Link
                     href="https://github.com/Alexfp05405/eminent-art-8078"
                     target="_blank"
@@ -384,7 +384,7 @@ const Projects = () => {
 
             <CardFooter>
               <Flex spacing="2">
-                <Box className="project-github-link">
+                <Box >
                   <Link
                     href="https://github.com/Sahil9214/HindustanTime"
                     target={"_blank"}
@@ -471,7 +471,7 @@ export default Projects;
 //                     </i>
 //                   </a>
 //                 </div>
-//                 <div className="project-github-link">
+//                 <div >
 //                   <a
 //                     href="https://github.com/Sagarbisht07/Perpetual-fact-6008"
 //                     target="_blank"
@@ -516,7 +516,7 @@ export default Projects;
 //                     </i>
 //                   </a>
 //                 </div>
-//                 <div className="project-github-link">
+//                 <div >
 //                   <a
 //                     href="https://github.com/Sagarbisht07/crabby-whistle-3208"
 //                     target="_blank"
