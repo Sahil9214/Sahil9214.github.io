@@ -100,16 +100,10 @@ const Projects = () => {
                     variant="solid"
                     colorScheme="blue"
                     outline={"transparent solid 2px"}
+                    className="project-github-link"
                   >
                     {" "}
                     Github{" "}
-                    {/* <img
-                      style={{ marginLeft: "7px" }}
-                      src="https://user-images.githubusercontent.com/106021674/223913675-1804f62d-0f4e-480f-bf35-5906d2fe4d7b.png"
-                      width="20px"
-                      height="18px"
-                      alt="github"
-                    /> */}
                   </Button>
                 </a>
                 <a
@@ -121,16 +115,9 @@ const Projects = () => {
                   <Button
                     variant="solid"
                     colorScheme="blue"
-                    // className="project-deployed-link"
+                    className="project-deployed-link"
                   >
                     deloyment
-                    {/* <img
-                      style={{ marginLeft: "7px" }}
-                      src="https://user-images.githubusercontent.com/106021674/223914003-0ae735e1-be01-4c74-8988-d9679ce5d41b.png"
-                      width="20px"
-                      height="18px"
-                      alt="deployment"
-                    /> */}
                   </Button>
                 </a>{" "}
               </Flex>
@@ -213,15 +200,9 @@ const Projects = () => {
                     variant="solid"
                     colorScheme="blue"
                     outline={"transparent solid 2px"}
+                    className="project-github-link"
                   >
                     Github
-                    {/* <img
-                      style={{ marginLeft: "7px" }}
-                      src="https://user-images.githubusercontent.com/106021674/223913675-1804f62d-0f4e-480f-bf35-5906d2fe4d7b.png"
-                      width="20px"
-                      height="18px"
-                      alt="github"
-                    /> */}
                   </Button>
                 </a>{" "}
                 <a
@@ -230,15 +211,12 @@ const Projects = () => {
                   target={"_blank"}
                   className="project-deployed-link"
                 >
-                  <Button variant="solid" colorScheme="blue">
+                  <Button
+                    variant="solid"
+                    colorScheme="blue"
+                    className="project-deployed-link"
+                  >
                     deloyment
-                    {/* <img
-                      style={{ marginLeft: "7px" }}
-                      src="https://user-images.githubusercontent.com/106021674/223914003-0ae735e1-be01-4c74-8988-d9679ce5d41b.png"
-                      width="20px"
-                      height="18px"
-                      alt="deployment"
-                    /> */}
                   </Button>
                 </a>{" "}
               </Flex>
@@ -320,6 +298,7 @@ const Projects = () => {
                   <Button
                     variant="solid"
                     colorScheme="blue"
+                    className="project-github-link"
                     outline={"transparent solid 2px"}
                   >
                     Github{" "}
@@ -338,7 +317,11 @@ const Projects = () => {
                   href="https://fatsecret.vercel.app/"
                   className="project-deployed-link"
                 >
-                  <Button variant="solid" colorScheme="blue">
+                  <Button
+                    variant="solid"
+                    colorScheme="blue"
+                    className="project-deployed-link"
+                  >
                     {" "}
                     deloyment
                     {/* <img
@@ -421,43 +404,34 @@ const Projects = () => {
 
             <CardFooter>
               <Flex spacing="2">
-                <Link
+                <a
                   href="https://github.com/Sahil9214/HindustanTime"
                   className="project-github-link"
                   target={"_blank"}
                 >
                   <Button
                     variant="solid"
+                    className="project-github-link"
                     colorScheme="blue"
                     outline={"transparent solid 2px"}
                   >
                     Github
-                    {/* <img
-                      style={{ marginLeft: "7px" }}
-                      src="https://user-images.githubusercontent.com/106021674/223913675-1804f62d-0f4e-480f-bf35-5906d2fe4d7b.png"
-                      width="20px"
-                      height="18px"
-                      alt="github"
-                    /> */}
                   </Button>
-                </Link>{" "}
-                <Link
+                </a>{" "}
+                <a
                   style={{ marginLeft: "10px" }}
                   href="https://hindustan-time-ek6d.vercel.app/"
                   className="project-deployed-link"
                   target="_blank"
                 >
-                  <Button variant="solid" colorScheme="blue">
+                  <Button
+                    variant="solid"
+                    colorScheme="blue"
+                    className="project-deployed-link"
+                  >
                     deloyment
-                    {/* <img
-                      style={{ marginLeft: "7px" }}
-                      src="https://user-images.githubusercontent.com/106021674/223914003-0ae735e1-be01-4c74-8988-d9679ce5d41b.png"
-                      width="20px"
-                      height="18px"
-                      alt="deployment"
-                    /> */}
                   </Button>
-                </Link>{" "}
+                </a>{" "}
               </Flex>
             </CardFooter>
           </Card>
