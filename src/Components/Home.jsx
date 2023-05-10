@@ -4,7 +4,7 @@ import {Text,Divider} from "@chakra-ui/react";
 const About = () => {
   return (
     <div id="about" className="about section" style={{marginTop:"-80px"}}>
-      <div id={styles.aboutContainer} className="nav-link about">
+      <div id={styles.aboutContainer} >
         {/* Heading */}
         {/* <div className={styles.headingContainer}>
           <span className={styles.orangeDash}></span>
