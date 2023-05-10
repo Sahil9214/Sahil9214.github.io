@@ -18,7 +18,7 @@ import {
 import "../Styles/Project.css";
 const Projects = () => {
   return (
-    <div id="projects">
+    <div id="projects" className="project-github-link"  >
       <Text className="Project_Text">Projects</Text>
       <br />
       <Divider width={"80%"} margin="auto" />
