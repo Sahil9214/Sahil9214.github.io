@@ -191,13 +191,13 @@ const Projects = () => {
 
             <CardFooter>
               <Flex spacing="2">
-                <Box>
+                <Box  className="project-github-link"  >
                   <Link
                     className="project-github-link"
                     href="https://github.com/pgariya/fleet-purpose-8648"
                     target={"_blank"}
                   >
-                    <Button
+                    <Button  className="project-github-link"
                       variant="solid"
                       colorScheme="blue"
                       outline={"transparent solid 2px"}
@@ -288,13 +288,13 @@ const Projects = () => {
 
             <CardFooter>
               <Flex spacing="2">
-                <Box>
-                  <Link
+                <Box    className="project-github-link"  >
+                  <Link 
                     className="project-github-link"
                     href="https://github.com/Alexfp05405/eminent-art-8078"
                     target="_blank"
                   >
-                    <Button
+                    <Button  className="project-github-link"
                       variant="solid"
                       colorScheme="blue"
                       outline={"transparent solid 2px"}
@@ -386,13 +386,13 @@ const Projects = () => {
 
             <CardFooter>
               <Flex spacing="2">
-                <Box>
+                <Box    className="project-github-link"  >
                   <Link
                     className="project-github-link"
                     href="https://github.com/Sahil9214/HindustanTime"
                     target={"_blank"}
                   >
-                    <Button
+                    <Button   className="project-github-link"
                       variant="solid"
                       colorScheme="blue"
                       outline={"transparent solid 2px"}
