@@ -70,16 +70,7 @@ const GitStats = () => {
       <Divider width={"80%"} margin={"auto"} />
       <br />
       {/* Calendar */}
-      <div className={styles.calendar}>
-        <img src={calender} alt="" height={"100%"} width={"99%"} />
-        {/* <GitHubCalendar
-          style={{ transform: "scale(18)" }}
-          hideTotalCount="false"
-          hideColorLegend="false"
-          blockSize={15}
-          username="drahul97"
-        /> */}
-      </div>
+
       {/* Stats */}
       <div className={styles.commits}>
         <img
@@ -91,20 +82,31 @@ const GitStats = () => {
           alt=""
         />
 
+       
         <img
+          id="github-stats-card"
+          className={styles.commit1}
+          src="https://github-readme-stats.vercel.app/api?username=Sahil9214&theme=radical&hide_border=false&include_all_commits=true&count_private=true"
+         
+          alt=""
+        />
+         <img
           id="github-top-langs"
           className={styles.commit3}
           src="https://github-readme-stats.vercel.app/api/top-langs/?username=Sahil9214&theme=radical&hide_border=false&include_all_commits=false&count_private=false&layout=compact"
           // src="https://github-readme-stats.vercel.app/api/top-langs/?username=dRahul97&theme=radical&hide_border=false&include_all_commits=false&count_private=false&layout=compact"(previous one)
           alt=""
         />
-        <img
-          id="github-stats-card"
-          className={styles.commit1}
-          src="https://github-readme-stats.vercel.app/api?username=Sahil9214&theme=radical&hide_border=false&include_all_commits=true&count_private=true"
-          // src="https://github-readme-stats.vercel.app/api?username=dRahul97&theme=radical&hide_border=false&include_all_commits=true&count_private=true"(previous one)
-          alt=""
-        />
+        <div className={styles.calendar}>
+          <img src={calender} alt="" height={"100%"} width={"99%"} />
+          {/* <GitHubCalendar
+          style={{ transform: "scale(18)" }}
+          hideTotalCount="false"
+          hideColorLegend="false"
+          blockSize={15}
+          username="drahul97"
+        /> */}
+        </div>
       </div>
     </div>
   );
