@@ -10,11 +10,11 @@ import {
   Heading,
   Stack,
   Card,
-  Avatar,
+
   CardFooter,
   ButtonGroup,
 } from "@chakra-ui/react";
-import { BsThreeDotsVertical } from "@chakra-ui/icons";
+
 import "../Styles/Project.css";
 const Projects = () => {
   return (

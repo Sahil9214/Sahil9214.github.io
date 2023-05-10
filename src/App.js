@@ -13,10 +13,12 @@ function App() {
       <ParticlesComponent />
       <Navbar id="nav_menu" style={{ display: "sticky", top: "0px" }} />
       <br />
-      <Home />
+    
       <br/>
       <AboutMe />
-      <br />
+  
+      <Home />
+      <br/>
       <TechnicalSkills />
       <br />
       <Projects />
@@ -25,6 +27,8 @@ function App() {
       <Github />
       <br />
       <Contact />
+      <br/>
+      
     </div>
   );
 }
