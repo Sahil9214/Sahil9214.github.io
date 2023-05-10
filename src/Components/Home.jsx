@@ -22,7 +22,7 @@ const About = () => {
             {" "}
             Hello! my name is Utkarsh Singhal, 👋 a Full stack web developer.{" "}
           </h3> */}
-          <p className={styles.aboutME_p}>
+          <p className={styles.aboutME_p} style={{fontSize:"20px"}}>
             🔸Worked on different projects as leader and co-leader. 🔸
             <br />
             🔸 Keen to find a challenging position within an ambitious

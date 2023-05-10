@@ -10,10 +10,11 @@ import {
   Heading,
   Stack,
   Card,
+  Link,
   CardFooter,
   ButtonGroup,
 } from "@chakra-ui/react";
-import { Link } from "react-router-dom";
+
 import "../Styles/Project.css";
 const Projects = () => {
   return (

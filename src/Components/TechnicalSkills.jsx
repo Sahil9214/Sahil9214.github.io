@@ -9,7 +9,7 @@ const TechnicalSkills = () => {
       <br />
       <br />
       <Box className="techBox1">
-        <Text>Technical Skills</Text>
+        <Text className="tech_text_size">Technical Skills</Text>
 
         <Divider width={"80%"} margin="auto" />
         <br />
