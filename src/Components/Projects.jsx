@@ -98,8 +98,10 @@ const Projects = () => {
                   href="https://github.com/palabhi017/Meesho-Clone"
                   target={"_blank"}
                 >
-                  {" "}
-                  Github{" "}
+                  <Button colorScheme="blue" solid>
+                    {" "}
+                    Github{" "}
+                  </Button>
                 </Link>
                 <Link
                   style={{ marginLeft: "10px" }}
@@ -107,7 +109,9 @@ const Projects = () => {
                   href="https://vague-acoustics-7371.vercel.app/"
                   target={"_blank"}
                 >
-                  deloyment
+                  <Button colorScheme="blue" solid>
+                    deloyment
+                  </Button>
                 </Link>{" "}
               </Flex>
             </CardFooter>
@@ -181,19 +185,23 @@ const Projects = () => {
             <CardFooter>
               <Flex spacing="2">
                 <Link
-                  className="project-deployed-link"
-                  href="https://rococo-sawine-4218f1.netlify.app/"
-                  target={"_blank"}
-                >
-                  deloyment
-                </Link>{" "}
-                <Link
-                  style={{ marginLeft: "10px" }}
+                 
                   className="project-github-link"
                   href="https://github.com/pgariya/fleet-purpose-8648"
                   target={"_blank"}
                 >
-                  Github
+                  <Button colorScheme="blue" solid>
+                    Github
+                  </Button>
+                </Link>{" "}
+                <Link  style={{ marginLeft: "10px" }}
+                  className="project-deployed-link"
+                  href="https://rococo-sawine-4218f1.netlify.app/"
+                  target={"_blank"}
+                >
+                  <Button colorScheme="blue" solid>
+                    deloyment
+                  </Button>
                 </Link>{" "}
               </Flex>
             </CardFooter>
@@ -271,7 +279,9 @@ const Projects = () => {
                   href="https://github.com/Alexfp05405/eminent-art-8078"
                   target="_blank"
                 >
-                  Github{" "}
+                  <Button colorScheme="blue" solid>
+                    Github{" "}
+                  </Button>
                 </Link>
                 <Link
                   style={{ marginLeft: "10px" }}
@@ -279,8 +289,10 @@ const Projects = () => {
                   target="_blank"
                   href="https://fatsecret.vercel.app/"
                 >
-                  {" "}
-                  deloyment
+                  <Button colorScheme="blue" solid>
+                    {" "}
+                    deloyment
+                  </Button>
                 </Link>
               </Flex>
             </CardFooter>
@@ -358,7 +370,9 @@ const Projects = () => {
                   href="https://github.com/Sahil9214/HindustanTime"
                   target={"_blank"}
                 >
-                  Github
+                  <Button colorScheme="blue" solid>
+                    Github
+                  </Button>
                 </Link>{" "}
                 <Link
                   style={{ marginLeft: "10px" }}
@@ -366,7 +380,9 @@ const Projects = () => {
                   href="https://hindustan-time-ek6d.vercel.app/"
                   target="_blank"
                 >
-                  deloyment
+                  <Button colorScheme="blue" solid>
+                    deloyment
+                  </Button>
                 </Link>{" "}
               </Flex>
             </CardFooter>
