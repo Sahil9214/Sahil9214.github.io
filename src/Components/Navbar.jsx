@@ -27,7 +27,6 @@ export default function Navbar() {
         top={"0px"}
         margin={"auto"}
         width={"100%"}
-        // pt={9}
       >
         <Flex
           h={16}
@@ -53,13 +52,13 @@ export default function Navbar() {
             left="30px"
             zIndex={444444}
           />
-          <HStack spacing={2} alignItems={"center"}>
+          <HStack spacing={23} alignItems={"center"}>
             <HStack
               as={"nav"}
               spacing={9}
               display={{ base: "none", md: "flex" }}
               color="#fff"
-              fontSize="17px"
+              fontSize="19px"
             >
               <a
                 className="nav-link home"
@@ -73,19 +72,22 @@ export default function Navbar() {
               >
                 Home
               </a>
+
               <a className="nav-link about" href="#about">
                 About
               </a>
               <a className="nav-link skills" href="#skills">
                 Skills
               </a>
+
               <a className="nav-link projects" href="#projects">
                 Projects
               </a>
-              <a className="nav-link contact" href="#contact">
-                Contact
+         
+              <a   href="#contact">
+               Contact
               </a>
-
+             
               <button
                 id="resume-button-1"
                 onClick={handleResume}

@@ -43,7 +43,7 @@ const Contact = () => {
   };
 
   return (
-    <div id="contact" className="nav-link contact">
+    <div id="contact" className="nav-link contact"  >
       <div className="top-sec">
         {/* Heading */}
         <div className="contact-name">

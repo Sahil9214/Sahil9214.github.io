@@ -14,6 +14,7 @@ function App() {
       <Navbar id="nav_menu" style={{ display: "sticky", top: "0px" }} />
       <br />
       <Home />
+      <br/>
       <AboutMe />
       <br />
       <TechnicalSkills />

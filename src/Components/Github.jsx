@@ -12,8 +12,6 @@ const Github = () => {
       <Divider width={"80%"} margin={"auto"} />
       <br />
       <Box>
-      
-
         <Box className="Image_Section" id="github-streak-stats">
           <Image
             className="githubImages"
@@ -52,6 +50,9 @@ const Github = () => {
           src={calender}
           alt="calender"
         />
+       
+        <GitHubCalendar username="sahil9214" />
+     
       </Box>
     </div>
   );
