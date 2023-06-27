@@ -1,5 +1,5 @@
 .name_Text {
-  color:#fff;
+  color: #fff;
   font-weight: 800;
   font-family: "Lobster Two", cursive;
   position: relative;
@@ -8,32 +8,31 @@
   font-size: 1.9em;
   letter-spacing: 4px;
   overflow: hidden;
-  
 
   background-repeat: no-repeat;
   background-size: 80%;
-
 }
 .resume_Btn {
-  color:red;
+  color: red;
   font-weight: 700;
   font-family: "Lobster Two", cursive;
   background-color: #000;
-  border:2px solid yellow;
+  border: 2px solid yellow;
   border-radius: 10px 18px;
-
+  padding: 20px 80px;
+  cursor: pointer;
+  
 }
 .resume_Btn:hover {
-  color:#fff;
+  color: #fff;
   font-weight: 900;
   font-family: "Lobster Two", cursive;
   background-color: #000;
-  border:2px solid red;
+  border: 2px solid red;
   border-radius: 10px 18px;
-
 }
 .about_me_heading {
-  color:orange;
+  color: orange;
   font-weight: 800;
   font-family: "Lobster Two", cursive;
   position: relative;
@@ -49,7 +48,7 @@
   -webkit-background-clip: text;
   -webkit-text-fill-color: rgba(255, 255, 255, 0);
 
-  background-color:orange;
+  background-color: orange;
   /* background-image: radial-gradient(
       at 40% 20%,
       hsla(82, 100%, 74%, 1) 0px,
@@ -85,7 +84,7 @@
     justify-content: center;
     text-align: center;
   }
-  .about_me_heading{
+  .about_me_heading {
     font-size: 28px;
   }
   .aboutME_p {
@@ -105,15 +104,14 @@
   }
 }
 
-.home-img{
-z-index: 1;
-position: relative;
-border-radius: 50%;
-border-bottom:0px ;
-width:400px;
-border: none;
+.home-img {
+  z-index: 1;
+  position: relative;
+  border-radius: 50%;
+  border-bottom: 0px;
+  width: 400px;
+  border: none;
 }
-.resume_Btn{
-  padding: 24px 80px;
-
+.resume_Btn {
+  padding: 24px 120px;
 }

@@ -18,7 +18,7 @@ import {
 import "../Styles/Project.css";
 const Projects = () => {
   return (
-    <div id="projects" className="project-github-link"  >
+    <div id="projects" className="project-github-link">
       <Text className="Project_Text">Projects</Text>
       <br />
       <Divider width={"80%"} margin="auto" />
@@ -91,28 +91,32 @@ const Projects = () => {
               </Box>
             </Box>
 
-            <Flex spacing="2">
-              <Link
-                className="project-github-link"
-                href="https://github.com/palabhi017/Meesho-Clone"
-                target={"_blank"}
-              >
-                <Button colorScheme="blue" solid>
-                  {" "}
-                  Github{" "}
-                </Button>
-              </Link>
-              <Link
-                style={{ marginLeft: "10px" }}
-                className="project-deployed-link"
-                href="https://vague-acoustics-7371.vercel.app/"
-                target={"_blank"}
-              >
-                <Button colorScheme="blue" solid>
-                  deloyment
-                </Button>
-              </Link>{" "}
-            </Flex>
+            <br />
+            <Box style={{ width: "50%", margin: "auto" }}>
+              <Flex spacing="2">
+                <Link
+                  className="project-github-link"
+                  href="https://github.com/palabhi017/Meesho-Clone"
+                  target={"_blank"}
+                >
+                  <Button colorScheme="blue" solid>
+                    {" "}
+                    Github{" "}
+                  </Button>
+                </Link>
+                <Link
+                  style={{ marginLeft: "10px" }}
+                  className="project-deployed-link"
+                  href="https://ephemeral-monstera-6c4929.netlify.app/"
+                  target={"_blank"}
+                >
+                  <Button colorScheme="blue" solid>
+                    deloyment
+                  </Button>
+                </Link>{" "}
+              </Flex>
+            </Box>
+            <br />
           </Card>
           {/* card 2 */}
           <br />
@@ -180,28 +184,34 @@ const Projects = () => {
               </Box>
             </Box>
 
-            <Flex spacing="2">
-              <Link
-                className="project-github-link"
-                href="https://github.com/pgariya/fleet-purpose-8648"
-                target={"_blank"}
-              >
-                <Button colorScheme="blue" solid>
-                  Github
-                </Button>
-              </Link>{" "}
-              <Link
-                style={{ marginLeft: "10px" }}
-                className="project-deployed-link"
-                href="https://rococo-sawine-4218f1.netlify.app/"
-                target={"_blank"}
-              >
-                <Button colorScheme="blue" solid>
-                  deloyment
-                </Button>
-              </Link>{" "}
-            </Flex>
+            <br />
+
+            <Box style={{ width: "50%", margin: "auto" }}>
+              <Flex spacing="2">
+                <Link
+                  className="project-github-link"
+                  href="https://github.com/pgariya/fleet-purpose-8648"
+                  target={"_blank"}
+                >
+                  <Button colorScheme="blue" solid>
+                    Github
+                  </Button>
+                </Link>{" "}
+                <Link
+                  style={{ marginLeft: "10px" }}
+                  className="project-deployed-link"
+                  href="https://rococo-sawine-4218f1.netlify.app/"
+                  target={"_blank"}
+                >
+                  <Button colorScheme="blue" solid>
+                    deloyment
+                  </Button>
+                </Link>{" "}
+              </Flex>
+            </Box>
+            <br />
           </Card>
+          <br />
         </Flex>
         {/* FlexBox2 */}
         <br />
@@ -267,29 +277,32 @@ const Projects = () => {
                 <span className="tech_used_span8">Json-Server</span>
               </Box>
             </Box>
-
-            <Flex spacing="2">
-              <Link
-                className="project-github-link"
-                href="https://github.com/Alexfp05405/eminent-art-8078"
-                target="_blank"
-              >
-                <Button colorScheme="blue" solid>
-                  Github{" "}
-                </Button>
-              </Link>
-              <Link
-                style={{ marginLeft: "10px" }}
-                className="project-deployed-link"
-                target="_blank"
-                href="https://fatsecret.vercel.app/"
-              >
-                <Button colorScheme="blue" solid>
-                  {" "}
-                  deloyment
-                </Button>
-              </Link>
-            </Flex>
+            <br />
+            <Box style={{ width: "50%", margin: "auto" }}>
+              <Flex spacing="2">
+                <Link
+                  className="project-github-link"
+                  href="https://github.com/Alexfp05405/eminent-art-8078"
+                  target="_blank"
+                >
+                  <Button colorScheme="blue" solid>
+                    Github{" "}
+                  </Button>
+                </Link>
+                <Link
+                  style={{ marginLeft: "10px" }}
+                  className="project-deployed-link"
+                  target="_blank"
+                  href="https://fatsecret.vercel.app/"
+                >
+                  <Button colorScheme="blue" solid>
+                    {" "}
+                    deloyment
+                  </Button>
+                </Link>
+              </Flex>
+            </Box>
+            <br />
           </Card>
           {/* card 2 */}
           <br />
@@ -356,28 +369,31 @@ const Projects = () => {
                 <span className="tech_used_span8">Json-Server</span>
               </Box>
             </Box>
-
-            <Flex spacing="2">
-              <Link
-                className="project-github-link"
-                href="https://github.com/Sahil9214/HindustanTime"
-                target={"_blank"}
-              >
-                <Button colorScheme="blue" solid>
-                  Github
-                </Button>
-              </Link>{" "}
-              <Link
-                style={{ marginLeft: "10px" }}
-                className="project-deployed-link"
-                href="https://hindustan-time-ek6d.vercel.app/"
-                target="_blank"
-              >
-                <Button colorScheme="blue" solid>
-                  deloyment
-                </Button>
-              </Link>{" "}
-            </Flex>
+            <br />
+            <Box style={{ width: "50%", margin: "auto" }}>
+              <Flex spacing="2">
+                <Link
+                  className="project-github-link"
+                  href="https://github.com/Sahil9214/HindustanTime"
+                  target={"_blank"}
+                >
+                  <Button colorScheme="blue" solid>
+                    Github
+                  </Button>
+                </Link>{" "}
+                <Link
+                  style={{ marginLeft: "10px" }}
+                  className="project-deployed-link"
+                  href="https://hindustan-time-ek6d.vercel.app/"
+                  target="_blank"
+                >
+                  <Button colorScheme="blue" solid>
+                    deloyment
+                  </Button>
+                </Link>{" "}
+              </Flex>
+            </Box>
+            <br />
           </Card>
         </Flex>
       </Box>

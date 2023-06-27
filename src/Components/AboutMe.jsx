@@ -55,6 +55,7 @@ const AboutMe = () => {
                 id="resume-button-2"
                 href={resume}
                 download="Utkarsh_Singhal-Resume"
+                
                 rel="noreferrer"
                 target="_blank"
               >

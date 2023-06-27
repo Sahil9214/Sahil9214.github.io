@@ -192,7 +192,25 @@
 .flexBox1 {
   justify-content: space-evenly;
 } 
- @media only screen and (max-width: 900px) and (min-width: 320px) {
+.flexBox2 {
+  justify-content: space-evenly;
+} 
+ @media only screen and (max-width: 1240px) and (min-width: 726px) {
+  .flexBox1 {
+    flex-direction: column;
+  }
+  .flexBox2 {
+    flex-direction: column;
+  }
+  .CardProjects {
+    width: 90%;
+    margin: auto;
+  }
+  .Project_Text {
+    font-size: 28px;
+  }
+} 
+ @media only screen and (max-width: 725px) and (min-width: 320px) {
   .flexBox1 {
     flex-direction: column;
   }
