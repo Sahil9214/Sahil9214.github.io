@@ -21,7 +21,8 @@ export default function Navbar() {
   return (
     <>
       <Box
-        style={{ width: "100%", backgroundColor: "#393e46", zIndex: "2" }}
+        // style={{ }}
+        className='navbarBox'
         id="nav-menu"
         position="sticky"
         top={"0px"}

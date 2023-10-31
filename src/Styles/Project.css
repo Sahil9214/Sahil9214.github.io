@@ -45,12 +45,15 @@
   margin: auto;
   height: 300px;
 }
-.cardImage:hover {
+#cardProject3{
+  margin-right: 60px;
+}
+/* .cardImage:hover {
   background: linear-gradient(0deg, #000, #272727);
   z-index: 1;
   box-shadow: #000 5px 5px, #000 10px 10px, #000 15px 15px, #000 20px 20px,
     rgba(240, 46, 170, 0.05) 25px 25px;
-}
+} */
 .CardProjects:before,
 .CardProjects:after {
   content: "";
@@ -195,6 +198,9 @@
 .flexBox2 {
   justify-content: space-evenly;
 } 
+.flexBox3{
+  justify-content: center;
+}
  @media only screen and (max-width: 1240px) and (min-width: 726px) {
   .flexBox1 {
     flex-direction: column;
@@ -208,6 +214,9 @@
   }
   .Project_Text {
     font-size: 28px;
+  }
+  #cardProject3{
+    margin-right: 20px;
   }
 } 
  @media only screen and (max-width: 725px) and (min-width: 320px) {
@@ -223,6 +232,9 @@
   }
   .Project_Text {
     font-size: 28px;
+  }
+  #cardProject3{
+    margin-right: 0px;
   }
 } 
 
