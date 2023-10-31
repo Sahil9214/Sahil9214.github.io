@@ -97,7 +97,7 @@ const Projects = () => {
                   href="https://github.com/Subham0629/Booking.com"
                   target="_blank"
                 >
-                  <Button colorScheme="blue" solid>
+                  <Button colorScheme="blue" solid className="project-github-link">
                     Github{" "}
                   </Button>
                 </Link>
@@ -190,7 +190,7 @@ const Projects = () => {
                   href="https://github.com/palabhi017/Meesho-Clone"
                   target={"_blank"}
                 >
-                  <Button colorScheme="blue" solid>
+                  <Button colorScheme="blue" solid className="project-github-link">
                     {" "}
                     Github{" "}
                   </Button>
@@ -375,7 +375,7 @@ const Projects = () => {
                   href="https://github.com/Sahil9214/HindustanTime"
                   target={"_blank"}
                 >
-                  <Button colorScheme="blue" solid>
+                  <Button colorScheme="blue" solid className="project-github-link">
                     Github
                   </Button>
                 </Link>{" "}
@@ -471,7 +471,7 @@ const Projects = () => {
                   href="https://github.com/pgariya/fleet-purpose-8648"
                   target={"_blank"}
                 >
-                  <Button colorScheme="blue" solid>
+                  <Button colorScheme="blue" solid className="project-github-link">
                     Github
                   </Button>
                 </Link>{" "}
