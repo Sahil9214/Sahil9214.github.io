@@ -23,7 +23,7 @@ export default function ProjectsCard({
   DEPLOY,
 }) {
   return (
-    <Center py={12} key={NAME + "b"} >
+    <Center py={12} key={NAME + "b"} className="project-card" >
       <Box
         role={"group"}
         p={6}
