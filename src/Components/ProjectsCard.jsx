@@ -23,7 +23,7 @@ export default function ProjectsCard({
   DEPLOY,
 }) {
   return (
-    <Center py={12} key={NAME + "b"}>
+    <Center py={12} key={NAME + "b"} >
       <Box
         role={"group"}
         p={6}
@@ -72,7 +72,7 @@ export default function ProjectsCard({
           />
         </Box>
         <Stack pt={10} align={"center"}>
-          <Heading color={"#2b6cb0"} fontSize={"xl"}>
+          <Heading color={"#2b6cb0"} fontSize={"xl"} className="project-title">
             {NAME}
           </Heading>
           <Text

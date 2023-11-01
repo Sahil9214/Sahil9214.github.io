@@ -74,9 +74,9 @@ export default function SimpleThreeColumns() {
       <br />
       <br />
       <br />
-      <SimpleGrid columns={{ sm: 1, md: 2, lg: 3 }} spacing={5} className="project-card">
+      <SimpleGrid columns={{ sm: 1, md: 2, lg: 3 }} spacing={5} >
         {ProjectsDetails.map((item, i) => (
-          <ProjectsCard
+          <ProjectsCard className="project-card"
             IMAGE={item.IMAGE}
             NAME={item.NAME}
             TECHSTACK={item.TECHSTACK}
