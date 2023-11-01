@@ -21,7 +21,7 @@ export default function Navbar() {
   return (
     <>
       <Box
-        // style={{ }}
+         style={{backgroundColor:"#1A202C" }}
         className='navbarBox'
         id="nav-menu"
         position="sticky"
