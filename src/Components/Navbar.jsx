@@ -26,6 +26,7 @@ export default function Navbar() {
         id="nav-menu"
         position="sticky"
         top={"0px"}
+        zIndex={'2'}
         margin={"auto"}
         width={"100%"}
       >
