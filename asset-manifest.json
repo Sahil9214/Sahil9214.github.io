@@ -1,14 +1,14 @@
 {
   "files": {
     "main.css": "/static/css/main.9651fb31.css",
-    "main.js": "/static/js/main.b224011a.js",
+    "main.js": "/static/js/main.d3b5c0de.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/Tracking.png": "/static/media/Tracking.ca5b4853bf4851cedaa0.png",
     "static/media/mBooking.png": "/static/media/mBooking.01f71962d8bd3300e95f.png",
     "static/media/Hindustan.png": "/static/media/Hindustan.51a1a79d31f44d2f3010.png",
     "static/media/meesho.png": "/static/media/meesho.f4ec71ee3903a5f7ed1a.png",
+    "static/media/Utkarsh_Singhal_Resume.pdf": "/static/media/Utkarsh_Singhal_Resume.bb24825f9e5b054432da.pdf",
     "static/media/Utkarsh.png": "/static/media/Utkarsh.c064d267ae0704a86dbf.png",
-    "static/media/utkarshResume.pdf": "/static/media/utkarshResume.b84b3eea2349a88781e6.pdf",
     "static/media/github.png": "/static/media/github.553c66159c5672f25df6.png",
     "static/media/phone.png": "/static/media/phone.097ef67f1a9a19cbff3b.png",
     "static/media/calender.png": "/static/media/calender.bbd00d930c22a3bb84d0.png",
@@ -17,11 +17,11 @@
     "static/media/mail.png": "/static/media/mail.9082177d266cee25a57b.png",
     "index.html": "/index.html",
     "main.9651fb31.css.map": "/static/css/main.9651fb31.css.map",
-    "main.b224011a.js.map": "/static/js/main.b224011a.js.map",
+    "main.d3b5c0de.js.map": "/static/js/main.d3b5c0de.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.9651fb31.css",
-    "static/js/main.b224011a.js"
+    "static/js/main.d3b5c0de.js"
   ]
 }
