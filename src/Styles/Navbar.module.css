@@ -1,10 +1,20 @@
+.container{
+  /* border: 1px solid #fff; */
+  background-color:#393e46;
+  z-index: 2;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+
 .resumes {
+  border-radius: 5px;
   background-color: orange;
   font-family: "Open Sans", sans-serif;
   color: #0d2334;
   padding: 6px 12px;
   font-size: 16px;
-  /* border-radius: 8px; */
   border: none;
   font-weight: 700;
 }
@@ -16,10 +26,45 @@ a:hover {
   font-size: 23px;
   font-family: "Lobster Two", cursive;
   font-weight: 800;
-  color: #dcd7a0;
+  color:#DCD7A0 ;
 }
-.navbarBox {
-  width: 100%;
-  background-color: #393e46;
-  z-index:2 ;
+
+.logoText{
+  display: flex;
+  align-items: center;
+  width: 200px;
+  height: 50px;
+  margin-left: 1%;
+  color: #fff; 
+  border: 2px solid orange;
+  padding: 8px;
+  font-size: 20px;
+  font-family: Lobster Two cursive;
+  font-weight: 800;
+  color: #DCD7A0;
+}
+
+.logoSpan{
+  background: orange;
+  color:rgb(117, 20, 20);
+  padding: 5px;
+}
+
+
+@media only screen and (max-width: 780px) and (min-width: 320px) {
+  .logoText{
+    width: 150px;
+    height: 40px;
+    margin-left: 10px;
+    color: #fff; 
+    border: 2px solid orange;
+    padding: 4px;
+    font-size: 16px;
+    font-family: Lobster Two cursive;
+    font-weight: 400;
+    color: #DCD7A0;
+  }
+  
+
+
 }
