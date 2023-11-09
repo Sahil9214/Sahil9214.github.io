@@ -10,7 +10,7 @@ import {
 } from "@chakra-ui/react";
 import "../Styles/AboutMe.css";
 import Utkarsh from "../Images/Utkarsh.png";
-import resume from "../resume/utkarshResume.pdf";
+import resume from "../resume/Utkarsh_Singhal_Resume.pdf";
 const AboutMe = () => {
   return (
     <Box style={{ marginTop: "20px" }} className="about section" id="home">

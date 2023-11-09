@@ -142,13 +142,13 @@ import {Box,Flex,HStack} from "@chakra-ui/react";
 import {Menu,MenuButton,MenuList,MenuItem} from '@chakra-ui/react'
 import { HamburgerIcon, CloseIcon } from "@chakra-ui/icons";
 import style from "../Styles/Navbar.module.css";
-import resume from "../resume/utkarshResume.pdf";
+import resume from "../resume/Utkarsh_Singhal_Resume.pdf";
 
 export default function Navbar() {
   const handleResume = () => {
     window.open(
       
-      "https://drive.google.com/file/d/10oI6FnP85JxntvrHDRGOOe885SyFXYUl/view?usp=sharing"
+      "https://drive.google.com/file/d/14GUBJa9Cn4cSUvnzcliWR3WW76gmwMyp/view?usp=sharing"
     );
   };
   return (
