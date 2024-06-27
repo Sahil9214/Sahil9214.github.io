@@ -1,6 +1,10 @@
 import React from "react";
 import { Box, Text, Heading, Image, Divider } from "@chakra-ui/react";
 import "../Styles/TechnicalSkills.css";
+import AOS from "aos";
+import "aos/dist/aos.css"; // You can also use <link> for styles
+// ..
+AOS.init();
 const TechnicalSkills = () => {
   return (
     <div id="skills">

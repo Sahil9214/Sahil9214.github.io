@@ -1,3 +1,13 @@
+
+.block{
+  
+  width: 80%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin:auto;
+}
+
 .name_Text {
   color: #fff;
   font-weight: 800;

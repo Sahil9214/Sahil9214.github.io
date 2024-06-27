@@ -11,12 +11,13 @@ import {
 import "../Styles/AboutMe.css";
 import Utkarsh from "../Images/Utkarsh.png";
 import resume from "../resume/Utkarsh_Singhal_Resume.pdf";
+
 const AboutMe = () => {
   return (
     <Box style={{ marginTop: "20px" }} className="about section" id="home">
       <Box>
         <br />
-        <Flex className="block" style={{ margin: "auto", width: "80%" }}>
+        <Flex className="block">
           <Box className="mainBox1" width={"70%"}>
             <Box
               style={{
@@ -55,7 +56,6 @@ const AboutMe = () => {
                 id="resume-button-2"
                 href={resume}
                 download="Utkarsh_Singhal-Resume"
-                
                 rel="noreferrer"
                 target="_blank"
               >
